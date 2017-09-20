@@ -66,21 +66,9 @@ body {font-family: "Lato", sans-serif}
     <img src="SWOLEGOAL.png" >
     <h3 class="w3-wide">Your leader in personalized health</h3>
     <p class="w3-opacity"><i>We Love Fitness</i></p>
-    <p class="w3-justify"> Welcome to SWOLE GOAL. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.</p>
+    <p class="w3-justify"> <center> Welcome to SWOLE GOAL. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.<center></p>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
-      </div>
-    </div>
+	<a class="w3-btn w3-ripple w3-teal" href="../Views/Home/SubmissionForm.html" >Get Started</a>
   </div>
 
   <!-- The Tour Section -->
@@ -176,29 +164,6 @@ body {font-family: "Lato", sans-serif}
   
 <!-- End Page Content -->
 </div>
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
-<script>
-function myMap() {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
@@ -208,7 +173,6 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
 <script>

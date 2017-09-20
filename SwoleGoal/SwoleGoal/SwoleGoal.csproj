@@ -82,6 +82,7 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="SWOLEGOAL.png" />
+    <Content Include="Views\Home\SubmissionForm.html" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
