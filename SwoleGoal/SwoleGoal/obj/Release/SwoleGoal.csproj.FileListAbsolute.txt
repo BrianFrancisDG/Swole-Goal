@@ -1,5 +1,4 @@
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/SwoleGoal.dll
-/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/SwoleGoal.pdb
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/Microsoft.Web.Infrastructure.dll
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/System.Web.Helpers.dll
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/System.Web.Mvc.dll
@@ -13,7 +12,5 @@
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/System.Web.WebPages.xml
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/System.Web.WebPages.Razor.xml
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/bin/System.Web.Mvc.xml
-/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.csproj.CoreCompileInputs.cache
-/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.dll
-/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.pdb
-/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.csprojResolveAssemblyReference.cache
+/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Release/SwoleGoal.csproj.CoreCompileInputs.cache
+/Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Release/SwoleGoal.dll
