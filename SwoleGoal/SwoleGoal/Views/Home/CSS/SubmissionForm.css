@@ -1,0 +1,65 @@
+﻿body {
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Free-Desktop-Fitness-Wallpapers-HD-PIC-WPE008648.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align:center;!important
+        
+}
+
+tellUs{
+    color:white; !important
+}
+
+
+.mainRow{
+    padding:50px
+}
+
+
+// divides grid by 5 
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+//end of col-15
