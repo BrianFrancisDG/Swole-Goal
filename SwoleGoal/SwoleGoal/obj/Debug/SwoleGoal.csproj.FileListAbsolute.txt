@@ -17,6 +17,7 @@
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.dll
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.pdb
 /Users/tylerlynch/Desktop/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/bin/SwoleGoal.dll
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/bin/SwoleGoal.pdb
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/bin/Microsoft.Web.Infrastructure.dll
@@ -36,3 +37,25 @@
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.csproj.CoreCompileInputs.cache
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.dll
 /Users/briandeguzman/Documents/Swole-Goal/SwoleGoal/SwoleGoal/obj/Debug/SwoleGoal.pdb
+=======
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\SwoleGoal.dll.config
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\SwoleGoal.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\SwoleGoal.pdb
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Helpers.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Mvc.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Razor.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.Razor.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Razor.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Helpers.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.Razor.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Mvc.xml
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.csprojResolveAssemblyReference.cache
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.csproj.CoreCompileInputs.cache
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.dll
+C:\Users\valen\Desktop\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.pdb
+>>>>>>> front-end

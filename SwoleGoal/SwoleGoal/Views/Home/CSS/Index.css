@@ -1,0 +1,9 @@
+﻿body {
+    background-color: blue;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
