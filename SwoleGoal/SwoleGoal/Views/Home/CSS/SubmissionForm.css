@@ -62,4 +62,15 @@ tellUs{
         float: left;
     }
 }
-//end of col-15
+
+
+
+.btn-outline-primary {
+    color: #1e4805;
+    border-color: rgb(12, 183, 55);
+}
+
+.btn-primary {
+    background-color: #2dc711;
+    border-color: #2fd00e;
+}
