@@ -1,1 +1,91 @@
-﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Index.css" type="text/css" media="screen" runat="server" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse bg-inverse navbar-fixed-top">
+        @* <div class="container-fluid">
+        *@
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#home">Swole Goal</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#f&n">FITNESS</a></li>
+            <li><a href="#f&n">NUTRITION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        @*
+            </div>*@
+    </nav>
+
+    <!-- Page content -->
+    <div>
+
+    </div>
+    <div class="row" style="padding-top: 65px">
+        <div class="col-sm-12 text-center">
+            <img src="../SWOLEGOAL.png">
+            <h3>Your leader in personalized health</h3>
+            <p style="width:50%; margin:auto">
+                Welcome to SWOLE GOAL. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.
+            </p>
+            <br/>
+            <a href="../Views/Home/SubmissionForm.html" class="btn btn-success">Get Started</a>
+        </div>
+    </div>
+    <div class="row" style="padding-top:65px" id="f&n">
+        <img class="col-sm-6 img-responsive" 
+                style="padding-left: 0;
+                padding-right: 0;"
+                src="../fitness.jpg">
+        <!--Image from http://cdn-maf2.heartyhosting.com/sites/muscleandfitness.com/files/media/campus-muscle-trainint-partner-4.jpg-->
+        <img class="col-sm-6 img-responsive"
+                style="padding-left: 0;
+                    padding-right: 0;"
+                src="../nutrition.jpg">
+        <!--Image from https://www.theseasonedmom.com/wp-content/uploads/2017/04/Garlic-and-Herb-Salmon-Marinade-7.jpg-->
+    </div>
+    <div id="contact" class="text-center" style="padding-top:30px">
+        <h2>CONTACT</h2>
+        <p style="font-style:italic">Have a suggestion? Let us know!</p>
+        <hr style="width:50%; padding-bottom:15px"/>
+        <div class="row">
+            <div class="col-sm-6" style="padding-left:25%">
+                <i class="glyphicon glyphicon-map-marker" style="width:30px"></i> Buffalo, NY<br>
+                <i class="glyphicon glyphicon-earphone" style="width:30px"></i> Phone: (607)738-7938<br>
+                <i class="glyphicon glyphicon-envelope" style="width:30px"> </i> Email: tjlynch@buffalo.edu<br>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
+                        <input type="text" class="form-control" placeholder="Name" id="usr">
+                    </div>  
+                    <div class="col-sm-4" style="padding-left: 1px; padding-right: 0;">
+                        <input type="text" class="form-control" placeholder="Email" id="email">
+                    </div>
+                    <div class="col-sm-8" style="padding-top:5px; padding-left: 0px; padding-right: 0;">
+                        <textarea class="form-control" placeholder="Message" id="msg"></textarea>
+                    </div>
+                    <div class="col-sm-8" style="padding-right:0; padding-top:5px">
+                        <a href="../Views/Home/ContactForm.html" class="btn btn-success" style="float:right">Send</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr style="width:50%" />
+    </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+</body>
+</html>
