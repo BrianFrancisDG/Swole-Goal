@@ -15,11 +15,18 @@ namespace SwoleGoal.Models
         private static string m_GainHypertrophy = "Keep your sets between 8 and 10 reps in order to maximize hypertrophy.";
         private static string m_LoseWeightIncreaseEndurance = "Keep your sets between 12 and 15 reps.";
         private static string m_GainMaxout = "If you're trying to increase your compound personal records, then keep your reps between 2 and 5.";
+        private static string m_LoseWeight = "A very simple first step for many people is simply to cut out all drinks containing sugars or artificial sweeteners.";
 
         private string m_TotalActivity;
-        public ParagraphCreator()
+        private double m_Bmr;
+        private double m_Tdee;
+        private HomePageInputs m_Inputs;
+        public ParagraphCreator(HomePageInputs inputs)
         {
-
+            m_Inputs = inputs;
+            m_TotalActivity = CalculateTotalActivity(m_Inputs.VoluntaryFitness, m_Inputs.WorkFitness);
+            m_Bmr = CalculateBMR(m_Inputs.Height, m_Inputs.Weight, m_Inputs.Gender, m_Inputs.Age);
+            m_Tdee = CalculateTdee(m_Bmr, m_TotalActivity);
         }
         public string CreateParagraph(HomePageInputs inputs)
         {
@@ -30,7 +37,7 @@ namespace SwoleGoal.Models
             }
             else if (inputs.PrimaryGoal == "Lose")
             {
-                answer += m_LoseWeightIncreaseEndurance + m_HighActivityLoseWeight;
+                answer += m_LoseWeightIncreaseEndurance + m_HighActivityLoseWeight + m_LoseWeight;
                 if (m_TotalActivity == "Low")
                 {
                     answer += m_LowActivityLoseWeight;
@@ -125,7 +132,7 @@ namespace SwoleGoal.Models
             }
             else if (activityNumber < 8)
             {
-                answer = "Medium";
+                answer = "Moderate";
             }
             else
             {
