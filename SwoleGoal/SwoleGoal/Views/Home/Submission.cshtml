@@ -23,15 +23,10 @@
                         </div>
                     </div>
                     <div class="row mainRow">
-                        <div class="col-sm-4 text-center">
-                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="Male">Male</button>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="Female">Female</button>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="">Other</button>
-                        </div>
+                        <select class="form-control" name="Gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
                     </div>
                     <!--What's your Age-->
                     <div class="row mainRow">
@@ -123,15 +118,10 @@
                             <h3>Goals: </h3>
                         </div>
 
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Maintain</button>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Lose</button>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Get SWOLE</button>
-                        </div>
+                        <select class="form-control" name="PrimaryGoal">
+                            <option>Gain</option>
+                            <option>Lose</option>
+                        </select>
 
                     </div>
 
@@ -146,96 +136,30 @@
                 <!--Activity Level-->
                     <div class="row mainRow">
                         <div class="col-sm-12 text-center">
-                            <h3>What's your activity level?</h3>
+                            <h3>Work-Related Fitness</h3>
+                            <select class="form-control" name="WorkFitness">
+                                <option>Low</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                          </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-15 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Sendetary</button>
-                        </div>
-                        <div class="col-sm-15 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Light</button>
-                        </div>
-                        <div class="col-sm-15 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Moderate</button>
-                        </div>
-                        <div class="col-sm-15 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Active</button>
-                        </div>
-                        <div class="col-sm-15 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Very Active</button>
-                        </div>
-                    </div>
-
-
-                    <div class="row mainRow">
-                        <!--How many days of the week?-->
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <h3>Days/Week of Exercise?</h3>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleSelect1">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            <option>6</option>
-                                            <option>7</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Duration-->
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <h3>Duration?</h3>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleSelect1">
-                                            <option>0-20 min.</option>
-                                            <option>20-40 min.</option>
-                                            <option>40- 1hr.</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 <!--Exercise Intensity-->
                     <div class="row mainRow">
                         <div class="col-sm-12 text-center">
-                            <h3>How intense are your exercises?</h3>
+                            <h3>Voluntary Fitness</h3>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Light</button>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Moderate</button>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Difficult</button>
-                        </div>
-                        <div class="col-sm-3 text-center">
-                            <button type="submit" class="btn btn-outline-primary">Intense</button>
-                        </div>
-                    </div>
+                    <select class="form-control" name="VoluntaryFitness">
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
 
                     <div class="row mainRow">
                         <div class="col-sm-12 text-center">
                             <input type="submit" value="submit" class="btn btn-primary ">Submit
                         </div>
-
                     </div>
                 }
             </div>
