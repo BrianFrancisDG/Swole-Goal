@@ -24,7 +24,7 @@
                 <div class="col-lg-12">
                     <!-- Start of the Forms:-->
                     <!-- Information inputed by the Users will be used to create personalized fitness advice-->
-                    <form>
+                    <form id="form1" runat ="server" method="post">
 
                         <!--What's your Gender Buttons-->
                         <div class="row mainRow">
@@ -34,13 +34,13 @@
                         </div>
                         <div class="row mainRow">
                             <div class="col-sm-4 text-center">
-                                <button type="submit" class="btn btn-outline-primary">Male</button>
+                                <button type="radio" class="btn btn-outline-primary" name="Gender" value="Male">Male</button>
                             </div>
                             <div class="col-sm-4 text-center">
-                                <button type="submit" class="btn btn-outline-primary">Female</button>
+                                <button type="radio" class="btn btn-outline-primary" name="Gender" value="Female">Female</button>
                             </div>
                             <div class="col-sm-4 text-center">
-                                <button type="submit" class="btn btn-outline-primary">Other</button>
+                                <button type="radio" class="btn btn-outline-primary" name="Gender" value="">Other</button>
                             </div>
                         </div>
                         <!--What's your Age-->
@@ -53,7 +53,7 @@
                                     <div class="col-sm-8">
                                         <div class="form-group">
                                             <!--<label for="exampleSelect1">Select Your Age: </label>-->
-                                            <select class="form-control" id="exampleSelect1">
+                                            <select class="form-control" id="exampleSelect1" name="Age">
                                                 <option>18</option>
                                                 <option>19</option>
                                                 <option>20</option>
@@ -94,8 +94,9 @@
                                     <div class="col-sm-8">
                                         <div class="row">
                                             <div class="col-6">
-                                                
-                                                <input type="text" class="form-control" placeholder="ft.">
+                                                <!-- TODO: Convert height into one measurement to pass to model-->
+                                                <input type="text" class="form-control" placeholder="ft." name="Height" 
+                                                       name="Height">
                                             </div>
                                             <div class="col-6">
                                                 <input type="text" class="form-control" placeholder="in.">
@@ -118,7 +119,7 @@
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <input type="text" class="form-control" placeholder="lbs.">
+                                                <input type="text" class="form-control" placeholder="lbs." name="Weight">
                                             </div>
                                         </div>
 
@@ -244,7 +245,7 @@
 
                 <div class="row mainRow">
                     <div class="col-sm-12 text-center">
-                        <button type="submit" class="btn btn-primary ">Submit</button>
+                        <button type="submit" class="btn btn-primary "><a href="../Home/Results.html">Submit</a></button>
                     </div>
 
                 </div>

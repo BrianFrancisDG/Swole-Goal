@@ -86,6 +86,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Models\HomePageInputs.cs" />
+    <Compile Include="Models\ParagraphCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\CSS\Index.css" />
@@ -116,6 +118,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Views\Home\CSS\SubmissionForm.css" />
+    <Content Include="Views\Home\Results.html" />
+    <Content Include="Views\Home\Test.aspx" />
+    <Content Include="Views\Home\test2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
