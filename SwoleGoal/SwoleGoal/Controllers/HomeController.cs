@@ -16,8 +16,19 @@ namespace SwoleGoal.Controllers
 
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
+            Models.HomePageInputs myInputs = new Models.HomePageInputs();
+            return View();
+        }
+        public ActionResult Results(Models.HomePageInputs myInputs)
+        {
 
             return View();
         }
+        public ActionResult NutritionWiki()
+        {
+
+            return View();
+        }
+
     }
 }
