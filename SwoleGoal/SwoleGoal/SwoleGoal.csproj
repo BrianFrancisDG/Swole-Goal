@@ -74,9 +74,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
-    <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
     <Folder Include="Views\Home\Images\" />
     <Folder Include="Views\Home\JS\" />
   </ItemGroup>
@@ -86,12 +83,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Models\HomePageInputs.cs" />
+    <Compile Include="Models\NutritionWiki.cs" />
+    <Compile Include="Models\ParagraphCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\CSS\Index.css" />
     <Content Include="fitness.jpg" />
     <Content Include="nutrition.jpg" />
-    <Content Include="Views\Home\temp_index.html" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -101,7 +100,6 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="SWOLEGOAL.png" />
-    <Content Include="Views\Home\SubmissionForm.html" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1-vsdoc.js" />
@@ -124,6 +122,8 @@
     <None Include="Content\bootstrap.css.map" />
     <None Include="Content\bootstrap-theme.min.css.map" />
     <None Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Views\Home\Submission.cshtml" />
+    <Content Include="Views\Home\Results.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

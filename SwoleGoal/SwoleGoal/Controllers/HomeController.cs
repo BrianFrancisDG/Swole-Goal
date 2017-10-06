@@ -19,12 +19,21 @@ namespace SwoleGoal.Controllers
             Models.HomePageInputs myInputs = new Models.HomePageInputs();
             return View();
         }
+        public ActionResult Submission()
+        {
+            return View();
+        }
         public ActionResult Results(Models.HomePageInputs myInputs)
+        {
+            
+            return View(myInputs);
+        }
+        public ActionResult NutritionWiki()
         {
 
             return View();
         }
-        public ActionResult NutritionWiki()
+        public ActionResult FitnessWiki()
         {
 
             return View();
