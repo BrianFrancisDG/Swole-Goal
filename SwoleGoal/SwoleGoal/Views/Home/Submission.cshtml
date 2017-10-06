@@ -1,0 +1,245 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <div class="row parallax">
+        <div class="col-sm-12 text-center">
+            <h1 class="headerText">TELL US ABOUT YOURSELF!</h1>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-lg-12">
+                <!-- Start of the Forms:-->
+                <!-- Information inputed by the Users will be used to create personalized fitness advice-->
+                <!--What's your Gender Buttons-->
+                @using (Html.BeginForm("Results", "Home", FormMethod.Post))
+                {
+                    <div class="row mainRow">
+                        <div class="col-lg-12 text-center">
+                            <h1> What's your gender: </h1>
+                        </div>
+                    </div>
+                    <div class="row mainRow">
+                        <div class="col-sm-4 text-center">
+                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="Male">Male</button>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="Female">Female</button>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <button type="radio" class="btn btn-outline-primary" name="Gender" value="">Other</button>
+                        </div>
+                    </div>
+                    <!--What's your Age-->
+                    <div class="row mainRow">
+                        <div class="col-sm-4 text-center">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h3>Age: </h3>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="form-group">
+                                        <!--<label for="exampleSelect1">Select Your Age: </label>-->
+                                        <select class="form-control" id="exampleSelect1" name="Age">
+                                            <option>18</option>
+                                            <option>19</option>
+                                            <option>20</option>
+                                            <option>21</option>
+                                            <option>22</option>
+                                            <option>23</option>
+                                            <option>24</option>
+                                            <option>25</option>
+                                            <option>26</option>
+                                            <option>27</option>
+                                            <option>28</option>
+                                            <option>29</option>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                            <option>33</option>
+                                            <option>34</option>
+                                            <option>35</option>
+                                            <option>36</option>
+                                            <option>37</option>
+                                            <option>38</option>
+                                            <option>39</option>
+                                            <option>40</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--Height-->
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h3>Height: </h3>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <!-- TODO: Convert height into one measurement to pass to model-->
+                                            <input type="text" class="form-control" placeholder="ft." name="Height">
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="text" class="form-control" placeholder="in.">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--Weight-->
+                        <div class="col-sm-4 text-center">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h3>Weight: </h3>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" placeholder="lbs." name="Weight">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!--What are your goals-->
+                    <div class="row mainRow">
+                        <div class="col-sm-3 text-center">
+                            <h3>Goals: </h3>
+                        </div>
+
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Maintain</button>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Lose</button>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Get SWOLE</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row mainRow">
+                        <div class="col-sm-12 text-center">
+                            <h2>Almost There!</h2>
+                        </div>
+                    </div>
+
+
+                <!--Activity Level-->
+                    <div class="row mainRow">
+                        <div class="col-sm-12 text-center">
+                            <h3>What's your activity level?</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-15 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Sendetary</button>
+                        </div>
+                        <div class="col-sm-15 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Light</button>
+                        </div>
+                        <div class="col-sm-15 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Moderate</button>
+                        </div>
+                        <div class="col-sm-15 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Active</button>
+                        </div>
+                        <div class="col-sm-15 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Very Active</button>
+                        </div>
+                    </div>
+
+
+                    <div class="row mainRow">
+                        <!--How many days of the week?-->
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h3>Days/Week of Exercise?</h3>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Duration-->
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h3>Duration?</h3>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>0-20 min.</option>
+                                            <option>20-40 min.</option>
+                                            <option>40- 1hr.</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!--Exercise Intensity-->
+                    <div class="row mainRow">
+                        <div class="col-sm-12 text-center">
+                            <h3>How intense are your exercises?</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Light</button>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Moderate</button>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Difficult</button>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <button type="submit" class="btn btn-outline-primary">Intense</button>
+                        </div>
+                    </div>
+
+                    <div class="row mainRow">
+                        <div class="col-sm-12 text-center">
+                            <input type="submit" value="submit" class="btn btn-primary ">Submit
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
