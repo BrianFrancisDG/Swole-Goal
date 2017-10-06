@@ -17,16 +17,17 @@ namespace SwoleGoal.Models
         private static string m_GainMaxout = "If you're trying to increase your compound personal records, then keep your reps between 2 and 5.";
         private static string m_LoseWeight = "A very simple first step for many people is simply to cut out all drinks containing sugars or artificial sweeteners.";
 
-        private string m_TotalActivity;
-        private double m_Bmr;
-        private double m_Tdee;
+        public ResultOutputs Outputs { get; set; }
         private HomePageInputs m_Inputs;
+
         public ParagraphCreator(HomePageInputs inputs)
         {
+            Outputs = new ResultOutputs();
             m_Inputs = inputs;
-            m_TotalActivity = CalculateTotalActivity(m_Inputs.VoluntaryFitness, m_Inputs.WorkFitness);
-            m_Bmr = CalculateBMR(m_Inputs.Height, m_Inputs.Weight, m_Inputs.Gender, m_Inputs.Age);
-            m_Tdee = CalculateTdee(m_Bmr, m_TotalActivity);
+            Outputs.TotalActivity = CalculateTotalActivity(m_Inputs.VoluntaryFitness, m_Inputs.WorkFitness);
+            Outputs.Bmr = CalculateBMR(m_Inputs.Height, m_Inputs.Weight, m_Inputs.Gender, m_Inputs.Age);
+            Outputs.Tdee = CalculateTdee(Outputs.Bmr, Outputs.TotalActivity);
+            Outputs.Paragraph = CreateParagraph(m_Inputs);
         }
         public string CreateParagraph(HomePageInputs inputs)
         {
@@ -38,7 +39,7 @@ namespace SwoleGoal.Models
             else if (inputs.PrimaryGoal == "Lose")
             {
                 answer += m_LoseWeightIncreaseEndurance + m_HighActivityLoseWeight + m_LoseWeight;
-                if (m_TotalActivity == "Low")
+                if (Outputs.TotalActivity == "Low")
                 {
                     answer += m_LowActivityLoseWeight;
                 }

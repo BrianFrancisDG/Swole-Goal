@@ -86,6 +86,7 @@
     <Compile Include="Models\HomePageInputs.cs" />
     <Compile Include="Models\NutritionWiki.cs" />
     <Compile Include="Models\ParagraphCreator.cs" />
+    <Compile Include="Models\ResultOutputs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\CSS\Index.css" />

@@ -25,8 +25,8 @@ namespace SwoleGoal.Controllers
         }
         public ActionResult Results(Models.HomePageInputs myInputs)
         {
-            
-            return View(myInputs);
+            SwoleGoal.Models.ParagraphCreator myCreator = new SwoleGoal.Models.ParagraphCreator(myInputs);
+            return View(myCreator.Outputs);
         }
         public ActionResult NutritionWiki()
         {
@@ -35,7 +35,6 @@ namespace SwoleGoal.Controllers
         }
         public ActionResult FitnessWiki()
         {
-
             return View();
         }
 
