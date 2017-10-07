@@ -1,11 +1,11 @@
 ﻿body {
+    background-color: black; !important
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("https://wallpaperscraft.com/image/dumbbells_fitness_gym_113149_1920x1080.jpg");
+  
     /* Set a specific height */
-    height: 500px;
+    height: 80%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -21,6 +21,10 @@
     line-height: 500px;
     vertical-align: middle;
     font-family:"Lato",sans-serif;
+}
+
+.bold{
+    color:darkseagreen; !important
 }
 
 
