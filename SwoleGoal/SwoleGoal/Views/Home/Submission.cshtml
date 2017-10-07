@@ -41,6 +41,13 @@
                 <!--What's your Gender Buttons-->
                 @using (Html.BeginForm("Results", "Home", FormMethod.Post))
                 {
+					<div class = "row">
+						<div class = "col-sm-12">
+							<h1>
+								About you: 
+							</h1>
+						</div>
+					</div>
 
 					<div class = "row mainRow">
 						<div class = "col-sm-6">
@@ -143,10 +150,9 @@
                                 </div>
 								<div class = "col-sm-12 text-center">
                                     <select class="form-control" name="PrimaryGoal">
-                                        <option value = "Gain">Gain Muscle</option>
-                                        <option value = "Gain">Gain Weight</option>
-                                        <option value = "Lose">Lose Weight</option>
-                                        <option value = "Health">Healthier</option>
+                                        <option>Low</option>
+                                        <option>Medium</option>
+                                        <option>High</option>
                                     </select>
                                 </div>
 								
