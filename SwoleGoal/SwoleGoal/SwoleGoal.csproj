@@ -89,6 +89,7 @@
     <Compile Include="Models\ResultOutputs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="NutritionWiki.css" />
     <Content Include="Views\Home\CSS\Index.css" />
     <Content Include="fitness.jpg" />
     <Content Include="nutrition.jpg" />
@@ -125,6 +126,7 @@
     <None Include="Content\bootstrap-theme.css.map" />
     <Content Include="Views\Home\Submission.cshtml" />
     <Content Include="Views\Home\Results.cshtml" />
+    <Content Include="Views\Home\NutritionWiki.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
