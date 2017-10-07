@@ -1,46 +1,38 @@
 ﻿
 <html>
-
+<head>
+    <link rel="stylesheet" href="../Index.css" type="text/css" media="screen" runat="server" />
+</head>
 <body>
-
-
-
     <!-- Page content -->
-    <div>
+    <div class="parallax row">
+            <h1>SWOLE GOAL</h1>
+            <h2>Your leader in personalized health</h2>
+    </div>
+    <div class="col-sm-10 col-sm-offset-1 text-center" id="about">
+        <h1>ABOUT</h1>
+        <p>
+            Welcome to <span class="green-text">Swole Goal</span>. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.
+        </p>
+        <br />
+        <a href="~/Home/Submission" class="btn btn-lg">Get Started</a>
+    </div>
 
-    </div>
-    <div class="row" style="padding-top: 65px">
-        <div class="col-sm-12 text-center">
-            <img src="../SWOLEGOAL.png">
-            <h3>Your leader in personalized health</h3>
-            <p style="width:50%; margin:auto">
-                Welcome to SWOLE GOAL. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.
-            </p>
-            <br/>
-            <a href="~/Home/Submission" class="btn btn-success">Get Started</a>
-        </div>
-    </div>
-    <div class="row" style="padding-top:65px" id="f&n">
-        <img class="col-sm-6 img-responsive" 
-                style="padding-left: 0;
-                padding-right: 0;"
-                src="../fitness.jpg">
+    <div class="row">
+        <img class="col-sm-6 img-responsive no-padding" src="../fitness.jpg">
         <!--Image from http://cdn-maf2.heartyhosting.com/sites/muscleandfitness.com/files/media/campus-muscle-trainint-partner-4.jpg-->
-        <img class="col-sm-6 img-responsive"
-                style="padding-left: 0;
-                    padding-right: 0;"
-                src="../nutrition.jpg">
+        <img class="col-sm-6 img-responsive no-padding" src="../nutrition.jpg">
         <!--Image from https://www.theseasonedmom.com/wp-content/uploads/2017/04/Garlic-and-Herb-Salmon-Marinade-7.jpg-->
     </div>
+
     <div id="contact" class="text-center" style="padding-top:30px">
-        <h2>CONTACT</h2>
-        <p style="font-style:italic">Have a suggestion? Let us know!</p>
+        <h1>CONTACT</h1>
+        <h2>Have a suggestion? Let us know!</h2>
         <hr style="width:50%; padding-bottom:15px"/>
         <div class="row">
             <div class="col-sm-6" style="padding-left:25%">
                 <i class="glyphicon glyphicon-map-marker" style="width:30px"></i> Buffalo, NY<br>
-                <i class="glyphicon glyphicon-earphone" style="width:30px"></i> Phone: (607)738-7938<br>
-                <i class="glyphicon glyphicon-envelope" style="width:30px"> </i> Email: tjlynch@buffalo.edu<br>
+                <i class="glyphicon glyphicon-envelope" style="width:30px"> </i> Email: swolegoal.fit@gmail.com<br>
             </div>
             <div class="col-sm-6">
                 <div class="row">
@@ -54,10 +46,9 @@
                         <textarea class="form-control" placeholder="Message" id="msg"></textarea>
                     </div>
                     <div class="col-sm-8" style="padding-right:0; padding-top:5px">
-                        <a href="../Views/Home/ContactForm.html" class="btn btn-success" style="float:right">Send</a>
+                        <a href="../Views/Home/ContactForm.html" class="btn" style="float:right">Send</a>
                     </div>
                 </div>
-                
             </div>
         </div>
         <hr style="width:50%" />

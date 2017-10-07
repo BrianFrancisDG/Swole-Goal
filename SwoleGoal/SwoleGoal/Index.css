@@ -1,0 +1,78 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+}
+
+.parallax {
+    background-image: url("../landing-page.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 1px 1px 20px #000000, 0px 0px 10px #aaa;
+    color: white;
+}
+
+.parallax.row h1 {
+    font-weight: 100;
+    font-size: 72px;
+    padding-top: 200px;
+}
+
+.parallax.row h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#about {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 52px;
+    font-weight: 400;
+    color: darkseagreen;
+}
+
+#about p {
+    padding-top: 24px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.green-text {
+    color: darkseagreen;
+}
+
+.no-padding {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#contact {
+    padding-top: 60px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 52px;
+    font-weight: 400;
+    color: darkseagreen;
+}
+
+#contact h2 {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
