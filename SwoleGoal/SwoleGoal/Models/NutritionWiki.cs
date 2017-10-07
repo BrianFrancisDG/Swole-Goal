@@ -17,19 +17,13 @@ namespace SwoleGoal.Models
 
         private string m_Bmr = "Your Basal Metabolic Rate (Abbreviated as BMR) is a rough estimate of how many calories you'd burn if you were stationary 24 hours";
         private string m_Tdee = "Your Total Daily Energy Expenditure (TDEE) is the amount of energy in calories you burn per day, taking into consideration the physical activity you subject your body to on a daily basis.";
-        private string m_Metabolism = "Metabolism by definition is a rather general statement; referring to the chemical processes tha";
+        private string m_Metabolism = "Metabolism by definition is a rather general statement; referring to the chemical processes that are performed by our bodies to maintain life";
         private string Ectomorph= "High tollerance for carbs, 30-60% of carbs depending on goal higher carbs for mass gain lower for weight loss, at least 25% protein";
         private string Mesomorph = "moderate overall tollerance, 20-50% carbs depending on goal. For fat loss no more than 40% of calories should come from fat";
         private string Endomorph = "low tollerance for carbs high tollerance for fat, 10-40% from carbs (more for mass and less for fat loss), 25-50% from protein, 15-40% from fat";
         private string gain = "50% carb 30% protein 20% fat";
         private string maintain = "40% carb 30% protein 30% fat";
         private string lose = "20% carb 45% protein 35% fat";
-
-        private string m_Ectomorph = "Ectomorphs have a naturally thin build to them. They have a high tollerance for carbs and a low tollerance for fat, therefore they tend to have a hard time gaining weight.";
-        private string m_Mesomorph = "Mesomorph have a naturally medium build to them. They have a moderate tollerance for carbs and fat.";
-        private string m_Endomorph = "Endomorphs have a naturally heavyset build to them. They have a low tollerance for carbs and a high tollerance for fat, hence they tend to put on weight easily.";
-
-
 
         public NutritionWiki()
         {
