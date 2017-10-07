@@ -1,0 +1,78 @@
+﻿body {
+    font-family: 'Lato',sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+     url("https://i.pinimg.com/originals/6c/ec/a4/6ceca4457fbe8214ecda674b2d1e03d0.jpg");
+    /* Set a specific height */
+    height: 80%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    !important;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+.headerText {
+    color: cornsilk;
+    !important margin:auto;
+    line-height: 500px;
+    vertical-align: middle;
+    font-size: 100px;
+    font-family: 'Lato',sans-serif;
+    margin: 0px;
+    z-index:3;
+    opacity:0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .headerText{
+        font-size: 80px
+    }
+}
+
+.headerDesc {
+    color: cornsilk;
+    !important margin: 0 auto;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-family: 'Lato',sans-serif;
+    margin-top: 0px;
+    font-weight:100;
+    z-index:1;
+}
+.mainRow {
+    padding: 50px;
+}
+
+.bold{
+    color:darkseagreen;
+}
+
+.btn-outline-primary {
+    color: #1e4805;
+    border-color: rgb(12, 183, 55);
+}
+
+.btn-primary {
+    background-color: #2dc711;
+    border-color: #2fd00e;
+}
+
+.form-control {
+    border: 1px solid darkseagreen;
+}
+
+.btn{
+    background-color: darkseagreen;
+    color:white;
+}

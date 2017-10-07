@@ -3,40 +3,67 @@
 
 <html>
 
+	
+<head>
+		
+	<link rel="stylesheet" href="../SubmissionForm.css" type="text/css" media="screen" runat="server" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css" media="screen" runat="server" >
+
+</head>
+
 <body>
+		
     <div class="row parallax">
-        <div class="col-sm-12 text-center">
-            <h1 class="headerText">TELL US ABOUT YOURSELF!</h1>
+        <div class = "row">
+
+            <div class = "col-sm-12">
+                <h1 class="headerText">TELL US ABOUT YOURSELF</h1>
+            </div>
+        	
+        </div>
+
+        <div class = "row">
+            <div class = "col-sm-6 col-sm-offset-3">
+                <h3 class = "headerDesc"> Our <b class = "bold">Swoley</b> Algorithm will design a 
+                    tailored workout based on your fitness goals and body 
+                    specifications.
+                </h3>
+            </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="container">
+			
             <div class="col-lg-12">
                 <!-- Start of the Forms:-->
                 <!-- Information inputed by the Users will be used to create personalized fitness advice-->
                 <!--What's your Gender Buttons-->
                 @using (Html.BeginForm("Results", "Home", FormMethod.Post))
                 {
-                    <div class="row mainRow">
-                        <div class="col-lg-12 text-center">
-                            <h1> What's your gender: </h1>
-                        </div>
-                    </div>
-                    <div class="row mainRow">
-                        <select class="form-control" name="Gender">
-                            <option>Male</option>
-                            <option>Female</option>
-                        </select>
-                    </div>
-                    <!--What's your Age-->
-                    <div class="row mainRow">
-                        <div class="col-sm-4 text-center">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h3>Age: </h3>
+
+					<div class = "row mainRow">
+						<div class = "col-sm-6">
+							<!-- What's your Gender-->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+									<h1>Gender: </h1>
+								</div>
+								<div class = "col-sm-12 text-center">
+									<select class="form-control" name="Gender">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+								</div>
+							</div>
+							<!-- Gender End-->
+							<!-- What's your Age -->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+                                    <h1>Age: </h1>
                                 </div>
-                                <div class="col-sm-8">
-                                    <div class="form-group">
+								<div class = "col-sm-12 text-center">
+									<div class="form-group">
                                         <!--<label for="exampleSelect1">Select Your Age: </label>-->
                                         <select class="form-control" id="exampleSelect1" name="Age">
                                             <option>18</option>
@@ -64,106 +91,95 @@
                                             <option>40</option>
                                         </select>
                                     </div>
+								</div>
+							</div>
+							<!-- Age End-->
+							<!-- Height -->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+									<h1>Height: </h1>
+								</div>
+								<div class = "col-sm-12 text-center">
+									<input type="number" class="form-control" 
+									min = "40" max = "100" placeholder="Height in inches" required>
+								</div>
+							</div>
+							<!-- Height End-->
+                            <!-- Weight-->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+									<h1>Weight</h1>
+								</div>
+								<div class = "col-sm-12 text-center">
+									<input type="number" class="form-control" 
+									placeholder="lbs." min = "70" max = "999" name="Weight" required>
+								</div>
+							</div>
+							<!-- Weight -->
+							
+						</div>
+						<!-- Left Side End -->
+						<!-- Right Side Begin -->
+						<div class = "col-sm-6">
+							<!-- Goals -->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+									<h1>Goal: </h1>
+								</div>
+								<div class = "col-sm-12 text-center">
+									<select class="form-control" name="PrimaryGoal">
+                                        <option value = "Gain">Gain Muscle</option>
+                                        <option value = "Gain">Gain Weight</option>
+                                        <option value = "Lose">Lose Weight</option>
+                                        <option value = "Health">Healthier</option>
+                                    </select>
                                 </div>
+							</div>
+                            <!-- Goals End-->
+							<!-- Work Related Fitness -->
+							<div class = "row">
+								<div class = "col-sm-12 text-center">
+                                    <h1>Work Related Fitness: </h1>
+                                </div>
+								<div class = "col-sm-12 text-center">
+                                    <select class="form-control" name="PrimaryGoal">
+                                        <option value = "Gain">Gain Muscle</option>
+                                        <option value = "Gain">Gain Weight</option>
+                                        <option value = "Lose">Lose Weight</option>
+                                        <option value = "Health">Healthier</option>
+                                    </select>
+                                </div>
+								
+							</div>
+							<!-- Work Related End -->
 
+							<!-- Voluntary Fitness -->
+							<div class = "row">
+                                <div class = "col-sm-12 text-center">
+                                    <h1>Voluntary Fitness: </h1>
+                                </div>
+                                <div class = "col-sm-12 text-center">
+									<select class="form-control" name="VoluntaryFitness">
+                                        <option>Low</option>
+                                        <option>Medium</option>
+                                        <option>High</option>
+                                    </select>      
+                                </div>                             
                             </div>
 
-                        </div>
-
-                        <!--Height-->
-                        <div class="col-sm-4">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h3>Height: </h3>
-                                </div>
-                                <div class="col-sm-8">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <!-- TODO: Convert height into one measurement to pass to model-->
-                                            <input type="text" class="form-control" placeholder="ft." name="Height">
-                                        </div>
-                                        <div class="col-6">
-                                            <input type="text" class="form-control" placeholder="in.">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <!--Weight-->
-                        <div class="col-sm-4 text-center">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <h3>Weight: </h3>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <input type="text" class="form-control" placeholder="lbs." name="Weight">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                <!--What are your goals-->
-                    <div class="row mainRow">
-                        <div class="col-sm-3 text-center">
-                            <h3>Goals: </h3>
-                        </div>
-
-                        <select class="form-control" name="PrimaryGoal">
-                            <option>Gain</option>
-                            <option>Lose</option>
-                        </select>
-
-                    </div>
-
-
+							<!-- Voluntary Fitness End-->
+							
+						</div>
+					</div>
+   
                     <div class="row mainRow">
                         <div class="col-sm-12 text-center">
-                            <h2>Almost There!</h2>
-                        </div>
-                    </div>
-
-
-                <!--Activity Level-->
-                    <div class="row mainRow">
-                        <div class="col-sm-12 text-center">
-                            <h3>Work-Related Fitness</h3>
-                            <select class="form-control" name="WorkFitness">
-                                <option>Low</option>
-                                <option>Medium</option>
-                                <option>High</option>
-                            </select>
-                          </div>
-                        </div>
-                <!--Exercise Intensity-->
-                    <div class="row mainRow">
-                        <div class="col-sm-12 text-center">
-                            <h3>Voluntary Fitness</h3>
-                        </div>
-                    </div>
-                    <select class="form-control" name="VoluntaryFitness">
-                        <option>Low</option>
-                        <option>Medium</option>
-                        <option>High</option>
-                    </select>
-
-                    <div class="row mainRow">
-                        <div class="col-sm-12 text-center">
-                            <input type="submit" value="submit" class="btn btn-primary ">Submit
+                            <input type="submit" value="Submit" class="btn btn-outline-success">
                         </div>
                     </div>
                 }
             </div>
-        </div>
-    </div>
+        </div>	
+    </div> <!-- Container Fluid End -->
 </body>
 </html>
