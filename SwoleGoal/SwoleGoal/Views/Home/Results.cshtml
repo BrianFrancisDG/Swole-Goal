@@ -2,13 +2,37 @@
 
 <html>
 <body>
-    <div>
+    <div class="container">
         <br /><br /><br /><br />
-        test
-        @Model.Tdee
-        @Model.Bmr
-        @Model.TotalActivity
-    @Model.Paragraph
+        <div class="panel">
+            <h3>@Model.Paragraph</h3>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1">
+            BMR:
+            @Model.Bmr
+        </div>
+        <div class="col-md-2 col-md-offset-2">
+            TDEE:
+            @Model.Tdee
+        </div>
+        <div class="col-md-2 col-md-offset-2">
+            Total Activity Level:
+            @Model.TotalActivity
+        </div>
+        <br /><br /><br />
+        <div class="row">
+            <div class="col-md-1 col-md-offset-4">
+                <a href="~/Home/NutritionWiki" class="btn btn-success">Nutrition Wiki</a>
+            </div>
+            <div class="col-md-1 col-md-offset-1">
+                <a href="~/Home/FitnessWiki" class="btn btn-success">Fitness Wiki</a>
+            </div>
+
+        </div>
+
     </div>
+
 </body>
+
 </html>
