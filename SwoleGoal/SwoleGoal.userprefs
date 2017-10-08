@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{FB22BDE5-368A-4737-AF6C-E9E5D833ADCA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SwoleGoal/Views/Home/CSS/EmptyCSSFile.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SwoleGoal/Views/Home/Results.cshtml">
     <Files>
       <File FileName="SwoleGoal/Models/FitnessWiki.cs" Line="14" Column="30" />
       <File FileName="SwoleGoal/Views/Home/FitnessWiki.cshtml" Line="22" Column="15" />
       <File FileName="SwoleGoal/FitnessWiki.css" Line="1" Column="1" />
       <File FileName="SwoleGoal/Models/HomePageInputs.cs" Line="1" Column="1" />
-      <File FileName="SwoleGoal/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SwoleGoal/Views/Home/CSS/EmptyCSSFile.css" Line="1" Column="1" />
+      <File FileName="SwoleGoal/Views/Home/Index.cshtml" Line="12" Column="63" />
+      <File FileName="SwoleGoal/Views/Home/CSS/Index.css" Line="1" Column="1" />
+      <File FileName="SwoleGoal/Controllers/HomeController.cs" Line="27" Column="10" />
+      <File FileName="SwoleGoal/Views/Home/Results.cshtml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
