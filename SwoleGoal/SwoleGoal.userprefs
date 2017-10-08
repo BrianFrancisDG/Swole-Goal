@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{FB22BDE5-368A-4737-AF6C-E9E5D833ADCA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SwoleGoal/_Layout.css">
+  <MonoDevelop.Ide.ItemProperties.SwoleGoal.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SwoleGoal/SubmissionForm.css">
     <Files>
-      <File FileName="SwoleGoal/Index.js" Line="1" Column="1" />
-      <File FileName="SwoleGoal/Index.css" Line="48" Column="38" />
-      <File FileName="SwoleGoal/_Layout.js" Line="1" Column="1" />
-      <File FileName="SwoleGoal/_Layout.css" Line="46" Column="22" />
+      <File FileName="SwoleGoal/Views/Home/Submission.cshtml" Line="12" Column="8" />
+      <File FileName="SwoleGoal/SubmissionForm.css" Line="34" Column="1" />
+      <File FileName="SwoleGoal/Views/Home/Results.cshtml" Line="7" Column="44" />
+      <File FileName="SwoleGoal/Results.css" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -24,8 +24,8 @@
 
         <div class = "row">
             <div class = "col-sm-6 col-sm-offset-3">
-                <h3 class = "headerDesc"> Our <b class = "bold">Swoley</b> Algorithm will design a 
-                    tailored workout based on your fitness goals and body 
+                <h3 class = "headerDesc"> Our <b class = "bold">Swoley</b> algorithm will design a 
+                    tailored workout plan based on your fitness goals and body 
                     specifications.
                 </h3>
             </div>
@@ -41,7 +41,9 @@
                 <!--What's your Gender Buttons-->
                 @using (Html.BeginForm("Results", "Home", FormMethod.Post))
                 {
-					
+					<div class = "row">
+                        <h1>Your Stats: </h1>
+                    </div>
 					<div class = "row mainRow">
 						<div class = "col-sm-6">
 							<!-- What's your Gender-->
@@ -94,71 +96,125 @@
 								</div>
 							</div>
 							<!-- Age End-->
-							<!-- Height -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Height: </h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<input type="number" class="form-control" 
-									min = "40" max = "100" placeholder="Height in inches" required>
-								</div>
-							</div>
-							<!-- Height End-->
-                            <!-- Weight-->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Weight</h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<input type="number" class="form-control" 
-									placeholder="lbs." min = "70" max = "999" name="Weight" required>
-								</div>
-							</div>
-							<!-- Weight -->
-							
 						</div>
 						<!-- Left Side End -->
 						<!-- Right Side Begin -->
 						<div class = "col-sm-6">
-							<!-- Goals -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Goal: </h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<select class="form-control" name="PrimaryGoal">
+							<!-- Height -->
+                            <div class = "row">
+                                <div class = "col-sm-12 text-center">
+                                    <h1>Height (Inches): </h1>
+                                </div>
+                                <div class = "col-sm-12 text-center">
+                                    <input type="number" class="form-control" 
+                                    min = "40" max = "100" name = "Height" placeholder="Height in inches" required>
+                                </div>
+                            </div>
+                            <!-- Height End-->
+                            <!-- Weight-->
+                            <div class = "row">
+                                <div class = "col-sm-12 text-center">
+                                    <h1>Weight (Pounds): </h1>
+                                </div>
+                                <div class = "col-sm-12 text-center">
+                                    <input type="number" class="form-control" 
+                                    placeholder="lbs." min = "70" max = "999" name="Weight" required>
+                                </div>
+                            </div>
+                            <!-- Weight -->
+						</div>
+					</div>
+					<!-- Goals, Work, Voluntary -->
+					<div class = "row mainRow">
+						<!-- Goals -->
+                            <div class = "row">
+                                <div class = "col-sm-12 text-center">
+                                    <h1>Goal: </h1>
+								    <p>
+									    Lorem Ipsum is simply dummy text of the
+									printing and typesetting industry. Lorem 
+									Ipsum has been the industry's standard dummy 
+									text ever since the 1500s, when an unknown 
+									printer took a galley of type and scrambled 
+									it to make a type specimen book. 
+									It has survived not only five centuries, but 
+									also the leap into electronic typesetting,
+									remaining essentially unchanged. 
+									It was popularised in the 1960s with the 
+									release of Letraset sheets containing Lorem 
+									Ipsum passages, and more recently with 
+									desktop publishing software like Aldus 
+									PageMaker including versions of Lorem Ipsum.
+									
+								    </p>
+                                </div>
+                                <div class = "col-sm-12 text-center">
+                                    <select class="form-control" name="PrimaryGoal">
                                         <option value = "Gain">Gain Muscle</option>
                                         <option value = "Gain">Gain Weight</option>
                                         <option value = "Lose">Lose Weight</option>
                                         <option value = "Health">Healthier</option>
                                     </select>
                                 </div>
-							</div>
+                            </div>
                             <!-- Goals End-->
-							<!-- Work Related Fitness -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
+                            <!-- Work Related Fitness -->
+                            <div class = "row">
+                                <div class = "col-sm-12 text-center">
                                     <h1>Work Related Fitness: </h1>
+								    <p>
+                                        Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem 
+                                    Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled 
+                                    it to make a type specimen book. 
+                                    It has survived not only five centuries, but 
+                                    also the leap into electronic typesetting,
+                                    remaining essentially unchanged. 
+                                    It was popularised in the 1960s with the 
+                                    release of Letraset sheets containing Lorem 
+                                    Ipsum passages, and more recently with 
+                                    desktop publishing software like Aldus 
+                                    PageMaker including versions of Lorem Ipsum.
+                                    
+                                    </p>
                                 </div>
-								<div class = "col-sm-12 text-center">
+                                <div class = "col-sm-12 text-center">
                                     <select class="form-control" name="PrimaryGoal">
                                         <option>Low</option>
                                         <option>Medium</option>
                                         <option>High</option>
                                     </select>
                                 </div>
-								
-							</div>
-							<!-- Work Related End -->
+                                
+                            </div>
+                            <!-- Work Related End -->
 
-							<!-- Voluntary Fitness -->
-							<div class = "row">
+                            <!-- Voluntary Fitness -->
+                            <div class = "row">
                                 <div class = "col-sm-12 text-center">
                                     <h1>Voluntary Fitness: </h1>
+								    <p>
+                                        Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting industry. Lorem 
+                                    Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled 
+                                    it to make a type specimen book. 
+                                    It has survived not only five centuries, but 
+                                    also the leap into electronic typesetting,
+                                    remaining essentially unchanged. 
+                                    It was popularised in the 1960s with the 
+                                    release of Letraset sheets containing Lorem 
+                                    Ipsum passages, and more recently with 
+                                    desktop publishing software like Aldus 
+                                    PageMaker including versions of Lorem Ipsum.
+                                    
+                                    </p>
                                 </div>
                                 <div class = "col-sm-12 text-center">
-									<select class="form-control" name="VoluntaryFitness">
+                                    <select class="form-control" name="VoluntaryFitness">
                                         <option>Low</option>
                                         <option>Medium</option>
                                         <option>High</option>
@@ -166,9 +222,8 @@
                                 </div>                             
                             </div>
 
-							<!-- Voluntary Fitness End-->
-							
-						</div>
+                            <!-- Voluntary Fitness End-->
+						
 					</div>
    
                     <div class="row mainRow">

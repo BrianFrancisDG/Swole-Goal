@@ -25,7 +25,7 @@
     !important margin:auto;
     line-height: 500px;
     vertical-align: middle;
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Lato',sans-serif;
     margin: 0px;
     z-index:3;
@@ -35,6 +35,12 @@
 @media screen and (max-width: 1024px) {
     .headerText{
         font-size: 80px
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .headerText {
+        font-size: 80px;
     }
 }
 
@@ -75,4 +81,8 @@
 .btn{
     background-color: darkseagreen;
     color:white;
+}
+
+p{
+    font-weight:300;
 }

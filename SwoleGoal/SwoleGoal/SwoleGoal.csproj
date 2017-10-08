@@ -119,6 +119,8 @@
     <Content Include="_Layout.js" />
     <Content Include="Index.css" />
     <Content Include="Index.js" />
+    <Content Include="SubmissionForm.css" />
+    <Content Include="Results.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
