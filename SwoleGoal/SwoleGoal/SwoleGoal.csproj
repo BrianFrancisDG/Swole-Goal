@@ -114,6 +114,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Views\Home\CSS\SubmissionForm.css" />
+    <Content Include="Views\Home\CSS\Index.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
