@@ -1,0 +1,171 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(15, 15, 15);
+}
+
+.toplogo {
+    margin-top: -18px;
+}
+
+.toplogo img {
+    height: 55px;
+    width: 65px;
+}
+
+.nav > li > a {
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 0px 10px black;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
+    color: white;
+    text-shadow: 0px 0px 15px darkseagreen;
+}
+
+.navbar-left {
+    height: 50%;
+    width: 50%;
+}
+
+.navbar-brand {
+    background: transparent;
+    border-color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+.navbar-brand:hover {
+    color: white;
+    text-shadow: 0px 0px 15px darkseagreen;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(0,0,0,0.3) !important;
+    transition: background-color 200ms linear;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module h2 {
+    margin-bottom: 0px;
+}
+
+section.module h3 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-style: italic;
+    color: cornsilk;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
+}
+
+section.module.content {
+    padding: 40px 0;
+}
+
+section.module.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 4px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.main {
+    background-image: url("../weights.jpg");
+    /*Image from http://i.huffpost.com/gen/2469020/images/o-START-LIFTING-WEIGHTS-facebook.jpg*/
+}
+
+section.module.fitness {
+    background-image: url("../fitness.jpg");
+    /*Image from http://cdn-maf2.heartyhosting.com/sites/muscleandfitness.com/files/media/campus-muscle-trainint-partner-4.jpg*/
+}
+
+section.module.nutrition {
+    background-image: url("../nutrition.jpg");
+    /*Image from https://www.theseasonedmom.com/wp-content/uploads/2017/04/Garlic-and-Herb-Salmon-Marinade-7.jpg*/
+}
+
+@media all and (min-width: 600px) {
+    section.module h2 {
+        color: darkseagreen;
+        text-align: center;
+        font-size: 64px;
+    }
+
+    section.module p {
+        font-size: 20px;
+        color: cornsilk;
+        text-align: center;
+    }
+
+    section.module.parallax h1 {
+        font-size: 96px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    section.module.parallax h1 {
+        font-size: 140px;
+    }
+}
+
+.btn {
+    background-color: darkseagreen;
+    color: snow;
+}
+
+.info {
+    color: cornsilk;
+    font-size: 20px;
+    padding-bottom: 70px;
+    font-weight: 300;
+    padding-bottom: 120px;
+}
+
+.disclaimer {
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
