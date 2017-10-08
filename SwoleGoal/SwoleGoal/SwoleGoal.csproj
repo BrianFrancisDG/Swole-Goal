@@ -89,7 +89,6 @@
     <Compile Include="Models\ResultOutputs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NutritionWiki.css" />
     <Content Include="Views\Home\CSS\Index.css" />
     <Content Include="fitness.jpg" />
     <Content Include="nutrition.jpg" />
@@ -116,8 +115,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Views\Home\CSS\SubmissionForm.css" />
-    <Content Include="SubmissionForm.css" />
-    <Content Include="Submission.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
@@ -128,7 +125,6 @@
     <None Include="Content\bootstrap-theme.css.map" />
     <Content Include="Views\Home\Submission.cshtml" />
     <Content Include="Views\Home\Results.cshtml" />
-    <Content Include="Views\Home\NutritionWiki.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
