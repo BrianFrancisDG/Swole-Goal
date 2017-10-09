@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.css" />
+    <Content Include="logo.png" />
     <Content Include="NutritionWiki.css" />
     <Content Include="SubmissionForm.css" />
     <Content Include="Views\Home\CSS\Index.css" />
@@ -119,6 +120,7 @@
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Views\Home\CSS\SubmissionForm.css" />
     <Content Include="Views\Home\CSS\Index.css" />
+    <Content Include="weights.jpg" />
     <Content Include="_Layout.css" />
   </ItemGroup>
   <ItemGroup>
