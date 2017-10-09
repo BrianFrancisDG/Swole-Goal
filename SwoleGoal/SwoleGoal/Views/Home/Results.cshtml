@@ -1,38 +1,105 @@
 ﻿@model SwoleGoal.Models.ResultOutputs
-
 <html>
+<head>
+
+    <link rel="stylesheet" href="../Results.css" type="text/css" media="screen" runat="server" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css" media="screen" runat="server">
+</head>
 <body>
-    <div class="container">
-        <br /><br /><br /><br />
-        <div class="panel">
-            <h3>@Model.Paragraph</h3>
-        </div>
-
-        <div class="col-md-2 col-md-offset-1">
-            BMR:
-            @Model.Bmr
-        </div>
-        <div class="col-md-2 col-md-offset-2">
-            TDEE:
-            @Model.Tdee
-        </div>
-        <div class="col-md-2 col-md-offset-2">
-            Total Activity Level:
-            @Model.TotalActivity
-        </div>
-        <br /><br /><br />
+    <div class="row parallax">
         <div class="row">
-            <div class="col-md-1 col-md-offset-4">
-                <a href="~/Home/NutritionWiki" class="btn btn-success">Nutrition Wiki</a>
-            </div>
-            <div class="col-md-1 col-md-offset-1">
-                <a href="~/Home/FitnessWiki" class="btn btn-success">Fitness Wiki</a>
+            <div class="col-sm-12 text-center">
+                <h1 class="headerText">
+                    Your Personalized <b class="bold">Swole</b>
+                    Goal
+                </h1>
             </div>
 
         </div>
-
+        <!-- <div class = "row">
+            <div class = "col-sm-6 col-sm-offset-3">
+                <h3 class = "headerDesc"> Our <b class = "bold">Swoley</b> algorithm will design a
+                    tailored workout plan based on your fitness goals and body
+                    specifications.
+                </h3>
+            </div>
+        </div> -->
     </div>
+    <div class="container-fluid">
+        <!-- Container -->
+        <div class="container">
 
+            <!-- <br /><br /><br /><br />
+            <div class="panel">
+                <h3>@Model.Paragraph</h3>
+            </div> -->
+            <div>
+                <h2>Based on your stats & inputs...</h2>
+            </div>
+            <div class="row mainRow">
+                <h3>@Model.Paragraph</h3>
+            </div>
+            <div class="row mainRow">
+                <!-- BMR -->
+                <div class="col-sm-4 text-center">
+                    <h2>BMR:</h2>
+                    <p>
+                        Your BMR (Basal Metabolic Rate) is an estimate of
+                        how many calories you'd burn if you were to do nothing
+                        but rest for 24 hours. It represents the minimum amount
+                        of energy needed to keep your body functioning,
+                        including breathing and keeping your heart beating.
+                    </p>
+                    <p>Your calculated BMR is: @Model.Bmr</p>
+                </div>
+                <!-- TDEE -->
+                <div class="col-sm-4 text-center">
+                    <h2>TDEE:</h2>
+                    <p>
+                        Your TDEE (Total Daily Energy Expenditure) is a measure
+                        of how many calories you burn per day.
+                    </p>
+                    <p>Your calculated TDEE is: @Model.Tdee</p>
+                </div>
+                <!-- Total Activity Level -->
+                <div class="col-sm-4 text-center">
+                    <h2>TAL:</h2>
+                    <p>
+                        Your Total Activity Level (TAL) is a way to express a
+                        person's daily physical activity as a number,
+                        and is used to estimate a person's total energy
+                        expenditure. In combination with the basal metabolic
+                        rate, it can be used to compute the amount of food
+                        energy a person needs to consume in order to maintain
+                        a particular lifestyle.
+                    </p>
+                    <p>Your calculated TAL: @Model.TotalActivity</p>
+                </div>
+            </div>
+
+            <div class="row mainRow">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2>For More Info: </h2>
+                        <h3>
+                            If you have any questions about anything said here
+                            or just want more <b class="bold">Swoley</b> goodness, feel free to
+                            visit our wikis.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="row mainRow">
+                    <div class="col-sm-6 text-center">
+                        <a href="~/Home/NutritionWiki" class="btn btn-success">Nutrition Wiki</a>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <a href="~/Home/FitnessWiki" class="btn btn-success">Fitness Wiki</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Container End -->
+    </div>
 </body>
-
 </html>

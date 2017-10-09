@@ -4,7 +4,8 @@
 
 .parallax {
     /* The image used */
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://i.pinimg.com/originals/6c/ec/a4/6ceca4457fbe8214ecda674b2d1e03d0.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
+    url("http://anschutzwellness.com/wp-content/uploads/2015/04/home_hero_fitness.jpg");
     /* Set a specific height */
     height: 80%;
     /* Create the parallax scrolling effect */
@@ -24,7 +25,7 @@
     !important margin:auto;
     line-height: 500px;
     vertical-align: middle;
-    font-size: 80px;
+    font-size: 75px;
     font-family: 'Lato',sans-serif;
     margin: 0px;
     z-index: 3;
@@ -33,13 +34,13 @@
 
 @media screen and (max-width: 1024px) {
     .headerText {
-        font-size: 80px
+        font-size: 75px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .headerText {
-        font-size: 80px;
+        font-size: 75px;
     }
 }
 
@@ -84,5 +85,9 @@
 }
 
 p {
+    font-weight: 300;
+}
+
+h3{
     font-weight: 300;
 }

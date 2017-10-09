@@ -1,69 +1,65 @@
 ﻿
 <!DOCTYPE html>
-
 <html>
 
-	
 <head>
-		
-	<link rel="stylesheet" href="../SubmissionForm.css" type="text/css" media="screen" runat="server" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css" media="screen" runat="server" >
 
+    <link rel="stylesheet" href="../SubmissionForm.css" type="text/css" media="screen" runat="server" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css" media="screen" runat="server">
 </head>
-
 <body>
-		
-    <div class="row parallax">
-        <div class = "row">
 
-            <div class = "col-sm-12">
+    <div class="row parallax">
+        <div class="row">
+            <div class="col-sm-12">
                 <h1 class="headerText">TELL US ABOUT YOURSELF</h1>
             </div>
-        	
-        </div>
 
-        <div class = "row">
-            <div class = "col-sm-6 col-sm-offset-3">
-                <h3 class = "headerDesc"> Our <b class = "bold">Swoley</b> Algorithm will design a 
-                    tailored workout based on your fitness goals and body 
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <h3 class="headerDesc">
+                    Our <b class="bold">Swoley</b> algorithm will design a
+                    tailored workout plan based on your fitness goals and body
                     specifications.
                 </h3>
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="container">
-			
+
             <div class="col-lg-12">
                 <!-- Start of the Forms:-->
                 <!-- Information inputed by the Users will be used to create personalized fitness advice-->
                 <!--What's your Gender Buttons-->
                 @using (Html.BeginForm("Results", "Home", FormMethod.Post))
                 {
-					
-					<div class = "row mainRow">
-						<div class = "col-sm-6">
-							<!-- What's your Gender-->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Gender: </h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<select class="form-control" name="Gender">
+                    <div class="row">
+                        <h1>Your Stats: </h1>
+                    </div>
+                    <div class="row mainRow">
+                        <div class="col-sm-6">
+                            <!-- What's your Gender-->
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h1>Gender: </h1>
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <select class="form-control" name="Gender">
                                         <option>Male</option>
                                         <option>Female</option>
                                     </select>
-								</div>
-							</div>
-							<!-- Gender End-->
-							<!-- What's your Age -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
+                                </div>
+                            </div>
+                            <!-- Gender End-->
+                            <!-- What's your Age -->
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
                                     <h1>Age: </h1>
                                 </div>
-								<div class = "col-sm-12 text-center">
-									<div class="form-group">
+                                <div class="col-sm-12 text-center">
+                                    <div class="form-group">
                                         <!--<label for="exampleSelect1">Select Your Age: </label>-->
                                         <select class="form-control" id="exampleSelect1" name="Age">
                                             <option>18</option>
@@ -91,86 +87,107 @@
                                             <option>40</option>
                                         </select>
                                     </div>
-								</div>
-							</div>
-							<!-- Age End-->
-							<!-- Height -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Height: </h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<input type="number" class="form-control" 
-									min = "40" max = "100" placeholder="Height in inches" required>
-								</div>
-							</div>
-							<!-- Height End-->
+                                </div>
+                            </div>
+                            <!-- Age End-->
+                        </div>
+                        <!-- Left Side End -->
+                        <!-- Right Side Begin -->
+                        <div class="col-sm-6">
+                            <!-- Height -->
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h1>Height (Inches): </h1>
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <input type="number" class="form-control"
+                                           min="40" max="100" name="Height" placeholder="Height in inches" required>
+                                </div>
+                            </div>
+                            <!-- Height End-->
                             <!-- Weight-->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Weight</h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<input type="number" class="form-control" 
-									placeholder="lbs." min = "70" max = "999" name="Weight" required>
-								</div>
-							</div>
-							<!-- Weight -->
-							
-						</div>
-						<!-- Left Side End -->
-						<!-- Right Side Begin -->
-						<div class = "col-sm-6">
-							<!-- Goals -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-									<h1>Goal: </h1>
-								</div>
-								<div class = "col-sm-12 text-center">
-									<select class="form-control" name="PrimaryGoal">
-                                        <option value = "Gain">Gain Muscle</option>
-                                        <option value = "Gain">Gain Weight</option>
-                                        <option value = "Lose">Lose Weight</option>
-                                        <option value = "Health">Healthier</option>
-                                    </select>
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h1>Weight (Pounds): </h1>
                                 </div>
-							</div>
-                            <!-- Goals End-->
-							<!-- Work Related Fitness -->
-							<div class = "row">
-								<div class = "col-sm-12 text-center">
-                                    <h1>Work Related Fitness: </h1>
+                                <div class="col-sm-12 text-center">
+                                    <input type="number" class="form-control"
+                                           placeholder="lbs." min="70" max="999" name="Weight" required>
                                 </div>
-								<div class = "col-sm-12 text-center">
-                                    <select class="form-control" name="PrimaryGoal">
-                                        <option>Low</option>
-                                        <option>Medium</option>
-                                        <option>High</option>
-                                    </select>
-                                </div>
-								
-							</div>
-							<!-- Work Related End -->
+                            </div>
+                            <!-- Weight -->
+                        </div>
+                    </div>
+					<!-- Goals, Work, Voluntary -->
+                    <div class="row mainRow">
+                        <!-- Goals -->
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h1>Goal: </h1>
+                                <p>
+                                    Choose what you want the end goal of this
+                                    program to be.
+                                    Pick from <b>Gain Muscle</b>, <b>Gain Weight</b>,
+                                    <b>Lose Weight</b>, and be <b>Healthier</b>.
 
-							<!-- Voluntary Fitness -->
-							<div class = "row">
-                                <div class = "col-sm-12 text-center">
-                                    <h1>Voluntary Fitness: </h1>
-                                </div>
-                                <div class = "col-sm-12 text-center">
-									<select class="form-control" name="VoluntaryFitness">
-                                        <option>Low</option>
-                                        <option>Medium</option>
-                                        <option>High</option>
-                                    </select>      
-                                </div>                             
+                                </p>
+                            </div>
+                            <div class="col-sm-12 text-center">
+                                <select class="form-control" name="PrimaryGoal">
+                                    <option value="Gain">Gain Muscle</option>
+                                    <option value="Gain">Gain Weight</option>
+                                    <option value="Lose">Lose Weight</option>
+                                    <option value="Health">Healthier</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Goals End-->
+                        <!-- Work Related Fitness -->
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h1>Work Related Fitness: </h1>
+                                <p>
+                                    Work Related Fitness refers to the amount of physical activity that you are exposed to at your day-to-day job. (We assume you work a 40 hour week)
+                                    You should choose <b>"Low"</b> if you have a typical desk job and are sitting in a chair for the majority of your work day.
+                                    You should choose <b>"Medium"</b> if you have a job that requires you to stand for the majority of your work day.
+                                    You should choose <b>"High"</b> if you have a job that involves consistent heavy lifting and/or aerobic exercise.
+
+                                </p>
+                            </div>
+                            <div class="col-sm-12 text-center">
+                                <select class="form-control" name="PrimaryGoal">
+                                    <option>Low</option>
+                                    <option>Medium</option>
+                                    <option>High</option>
+                                </select>
                             </div>
 
-							<!-- Voluntary Fitness End-->
-							
-						</div>
-					</div>
-   
+                        </div>
+                        <!-- Work Related End -->
+                        <!-- Voluntary Fitness -->
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h1>Voluntary Fitness: </h1>
+                                <p>
+                                    Volunteer Fitness refers to the amount of physical activity that you expose yourself to in your leisure time on a daily basis.
+                                    You should choose <b>"Low"</b> if you do not consistently expose yourself to cardio/weight training
+                                    You should choose <b>"Medium"</b> if you consistently expose yourself roughly an hour of cardio/weight training on a daily basis.
+                                    You should choose <b>"High"</b> if your cardio/weight training exceeds 90 minutes per day
+
+                                </p>
+                            </div>
+                            <div class="col-sm-12 text-center">
+                                <select class="form-control" name="VoluntaryFitness">
+                                    <option>Low</option>
+                                    <option>Medium</option>
+                                    <option>High</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Voluntary Fitness End-->
+
+                    </div>
+
                     <div class="row mainRow">
                         <div class="col-sm-12 text-center">
                             <input type="submit" value="Submit" class="btn btn-outline-success">
@@ -178,7 +195,7 @@
                     </div>
                 }
             </div>
-        </div>	
+        </div>
     </div> <!-- Container Fluid End -->
 </body>
 </html>

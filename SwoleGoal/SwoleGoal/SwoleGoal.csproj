@@ -89,9 +89,11 @@
     <Compile Include="Models\ResultOutputs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FitnessWiki.css" />
     <Content Include="Index.css" />
     <Content Include="logo.png" />
     <Content Include="NutritionWiki.css" />
+    <Content Include="Results.css" />
     <Content Include="SubmissionForm.css" />
     <Content Include="Views\Home\CSS\Index.css" />
     <Content Include="fitness.jpg" />
@@ -133,6 +135,7 @@
     <Content Include="Views\Home\Submission.cshtml" />
     <Content Include="Views\Home\Results.cshtml" />
     <Content Include="Views\Home\NutritionWiki.cshtml" />
+    <Content Include="Views\Home\FitnessWiki.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
