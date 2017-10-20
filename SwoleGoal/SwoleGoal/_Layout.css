@@ -43,9 +43,9 @@ font-family: 'Lato', sans-serif;
     text-shadow: 0px 0px 15px darkseagreen;
 }
 
-.navbar-fixed-top.scrolled {
-    background-color: rgba(0,0,0,0.3) !important;
-    transition: background-color 200ms linear;
+.navbar-fixed-top {
+    background-color: rgba(0,0,0,0.3);
+    /*transition: background-color 200ms linear;*/
 }
 
 
