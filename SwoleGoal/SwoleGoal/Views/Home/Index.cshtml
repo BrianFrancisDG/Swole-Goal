@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
     <link rel="stylesheet" href="../Index.css" type="text/css" media="screen" runat="server" />
+    <script src="~/Index.js"></script>
 </head>
 
 <body>
@@ -21,19 +22,36 @@
             </span>
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">ABOUT</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#about">ABOUT<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">FITNESS</a></li>
+                    <li><a href="#">NUTRITION</a></li>
+                </ul>
+            </li>
             <li><a href="#fitness">FITNESS</a></li>
             <li><a href="#nutrition">NUTRITION</a></li>
             <li><a href="#contact">CONTACT</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">FEEDBACK<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://goo.gl/forms/KqQHOC3xx2tfG5RB2">General Feedback</a></li>
+                    <li><a href="https://github.com/BrianFrancisDG/Swole-Goal/issues/new">Report a Bug</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
+    <!-- End Navbar -->
 
+    <!-- Main Section -->
     <section class="module parallax main" id="top">
         <div class="container">
             <h1>Swole Goal</h1>
         </div>
     </section>
+    <!-- End Main Section -->
 
+    <!-- About Section -->
     <section class="module content" id="about">
         <hr style="width:50%" />
         <div class="container text-center">
@@ -44,13 +62,15 @@
         <br />
         <hr style="width:50%; padding-bottom: 13px;" />
     </section>
+    <!-- End About Section -->
 
+    <!-- Fitness Section -->
     <section class="module parallax fitness" id="fitness">
         <div class="container">
             <h1>Fitness</h1>
         </div>
     </section>
-
+   
     <section class="module content">
         <hr style="width:50%" />
         <div class="container">
@@ -65,7 +85,9 @@
         </div>
         <hr style="width:50%" />
     </section>
+    <!-- End Fitness Section -->
 
+    <!-- Nutrition Section -->
     <section class="module parallax nutrition" id="nutrition">
         <div class="container">
             <h1>Nutrition</h1>
@@ -83,7 +105,9 @@
             <hr style="width:50%" />
         </div>
     </section>
+    <!-- End Nutrition Section -->
 
+    <!-- Contact Section -->
     <section class="module content" id="contact">
         <div class="container">
             <h2 class="contact">CONTACT</h2>
@@ -113,12 +137,15 @@
         <hr style="width:50%" />
 
     </section>
+    <!-- End Fitness Section -->
 
+    <!-- Bottom of page Disclaimer -->
     <div class="disclaimer">
         <p class="disclaimer">DISCLAIMER</p>
         <p>
             Our guide is intended for the use of healthy individuals above the age of 18. Please follow our plans carefully and at your own discretion.
         </p>
     </div>
+    <!-- End bottom of page Disclaimer -->
 </body>
 </html>
