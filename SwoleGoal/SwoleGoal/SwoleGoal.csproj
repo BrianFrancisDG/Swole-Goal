@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="FitnessWiki.css" />
     <Content Include="Index.css" />
+    <Content Include="Index.js" />
     <Content Include="logo.png" />
     <Content Include="NutritionWiki.css" />
     <Content Include="Results.css" />
@@ -124,6 +125,7 @@
     <Content Include="Views\Home\CSS\Index.css" />
     <Content Include="weights.jpg" />
     <Content Include="_Layout.css" />
+    <Content Include="_Layout.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />

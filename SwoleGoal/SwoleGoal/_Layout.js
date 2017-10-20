@@ -1,4 +1,5 @@
-﻿$(function () {
+﻿// Change color of navbar after scrolling certain distance
+$(function () {
   $(document).scroll(function () {
     var $nav = $(".navbar-fixed-top");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() + 475);
