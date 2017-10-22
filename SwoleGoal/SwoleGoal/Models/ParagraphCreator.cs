@@ -85,7 +85,7 @@ namespace SwoleGoal.Models
         }
         public double CalculateTdee(double bmr, string totalActivity)
         {
-            double answer = 1;
+            double answer = bmr;
             if (totalActivity == "None")
             {
                 answer *= 1.2;
@@ -130,7 +130,7 @@ namespace SwoleGoal.Models
                 activityNumber += 3;
             }
 
-            if (work == "Low")
+            if (work == "Low"|| work == null)
             {
                 activityNumber++;
             }
