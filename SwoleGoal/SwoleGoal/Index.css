@@ -12,6 +12,15 @@
     width: 65px;
 }
 
+.navbar-custom {
+    background-color: transparent;
+}
+
+button > icon-bar {
+   color: white;
+}
+
+
 .nav > li > a {
     font-weight: 400;
     font-size: 24px;
@@ -61,14 +70,11 @@ section.module:last-child {
 section.module h2 {
     margin-bottom: 40px;
     font-size: 30px;
+    color: darkseagreen;
+    text-align: center;
 }
 
-section.module h2 {
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-
-section.module h2 {
+section.module h2.contact {
     margin-bottom: 0px;
 }
 
@@ -85,14 +91,16 @@ section.module p {
     margin-bottom: 40px;
     font-size: 16px;
     font-weight: 300;
-}
-
-section.module p:last-child {
-    margin-bottom: 0;
+    color: white;
+    text-align: center;
 }
 
 section.module.content {
     padding: 40px 0;
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
 }
 
 section.module.parallax {
@@ -105,13 +113,13 @@ section.module.parallax {
 
 section.module.parallax h1 {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 4px;
-    line-height: 600px;
+    font-size: 48px;
+    transform: translateY(450%);
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+    }
 
 section.module.main {
     background-image: url("../weights.jpg");
@@ -128,7 +136,8 @@ section.module.nutrition {
     /*Image from https://www.theseasonedmom.com/wp-content/uploads/2017/04/Garlic-and-Herb-Salmon-Marinade-7.jpg*/
 }
 
-@media all and (min-width: 600px) {
+
+@media all and (min-width: 670px) {
     section.module h2 {
         color: darkseagreen;
         text-align: center;
@@ -142,12 +151,14 @@ section.module.nutrition {
     }
 
     section.module.parallax h1 {
+        transform: translateY(180%);
         font-size: 96px;
     }
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 995px) {
     section.module.parallax h1 {
+        transform: translateY(140%);
         font-size: 140px;
     }
 }
