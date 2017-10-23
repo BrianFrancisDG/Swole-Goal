@@ -1,0 +1,56 @@
+﻿body{
+font-family: 'Lato', sans-serif;
+}
+
+.toplogo {
+    margin-top: -18px;
+}
+
+.toplogo img {
+    height: 55px;
+    width: 65px;
+}
+
+.glyphicon-menu-hamburger:before {
+    color: white;
+    font-size: 24px;
+}
+
+.nav > li > a {
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 0px 10px black;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
+    color: darkseagreen;
+    text-shadow: 2px 0px 10px black;
+}
+
+.navbar-left {
+    height: 50%;
+    width: 50%;
+}
+
+.navbar-brand {
+    background: transparent;
+    border-color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+.navbar-brand:hover {
+    color: white;
+    text-shadow: 0px 0px 15px darkseagreen;
+}
+
+.navbar-fixed-top {
+    background-color: rgba(0,0,0,0.4);
+    /*transition: background-color 200ms linear;*/
+}
+
+

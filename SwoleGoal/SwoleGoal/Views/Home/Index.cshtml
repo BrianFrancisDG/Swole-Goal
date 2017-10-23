@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
+    <link rel="stylesheet" href="../Index.css" type="text/css" media="screen" runat="server" />
+    <script src="~/Index.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navb">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <span>
+                    <a class="navbar-brand toplogo" href="#top">
+                        <img src="../logo.png">
+                    </a>
+                </span>
+            </div>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#fitness">FITNESS</a></li>
+                    <li><a href="#nutrition">NUTRITION</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">WIKIS<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Home/FitnessWiki">FITNESS</a></li>
+                            <li><a href="~/Home/NutritionWiki">NUTRITION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">FEEDBACK<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://goo.gl/forms/KqQHOC3xx2tfG5RB2">General Feedback</a></li>
+                            <li><a href="https://github.com/BrianFrancisDG/Swole-Goal/issues/new">Report a Bug</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Main Section -->
+    <section class="module parallax main" id="top">
+        <div class="container">
+            <h1>Swole Goal</h1>
+        </div>
+    </section>
+    <!-- End Main Section -->
+
+    <!-- About Section -->
+    <section class="module content" id="about">
+        <hr style="width:50%" />
+        <div class="container text-center">
+            <h2>ABOUT</h2>
+            <p>Welcome to <span class="green-text">Swole Goal</span>. A powerful tool to help you achieve all of your health and fitness goals. Fill out every field to recieve a customly tailored workout plan, as well as a personalized diet outline full of healthy food that maintains great taste.</p>
+            <a href="~/Home/Submission" class="btn btn-lg">Get Started</a>
+        </div>
+        <br />
+        <hr style="width:50%; padding-bottom: 13px;" />
+    </section>
+    <!-- End About Section -->
+
+    <!-- Fitness Section -->
+    <section class="module parallax fitness" id="fitness">
+        <div class="container">
+            <h1>Fitness</h1>
+        </div>
+    </section>
+   
+    <section class="module content">
+        <hr style="width:50%" />
+        <div class="container">
+            <p>
+                Our recommended guide will help you target every muscle group in a way that will help you reach your fitness goals. Our gym based plan takes
+                place in the heart of the gym with a core focus on weight training along side suplementary cardio exercises all based on your needs.
+            </p>
+            <p>
+                We focus on a 4-5 day split which each workout day focusing on a specific muscle group. We'll give you all the exercises you need to kick start
+                your gym regimen. Depending on the phisque you want to achieve we'll recommend certain cardiovascular activities as well!
+            </p>
+        </div>
+        <hr style="width:50%" />
+    </section>
+    <!-- End Fitness Section -->
+
+    <!-- Nutrition Section -->
+    <section class="module parallax nutrition" id="nutrition">
+        <div class="container">
+            <h1>Nutrition</h1>
+        </div>
+    </section>
+
+    <section class="module content">
+        <div class="container">
+            <hr style="width:50%" />
+            <p>IIFYM | Flexible Dieting</p>
+            <p>
+                Not so much of a diet as it is a way of living. Flexible dieting or IIFYM (If It Fits Your Macros) is just that, a non-restrictive
+                way of eating that allows you to lose (or gain) weight by still eating all your favorite foods and meals.
+            </p>
+            <hr style="width:50%" />
+        </div>
+    </section>
+    <!-- End Nutrition Section -->
+
+    <!-- Contact Section -->
+    <section class="module content" id="contact">
+        <div class="container">
+            <h2 class="contact">CONTACT</h2>
+            <h3>Have a suggestion? Let us know!</h3>
+            <div class="info text-center">
+                <i class="glyphicon glyphicon-map-marker" style="width:30px"></i> Buffalo, NY<br>
+                <i class="glyphicon glyphicon-envelope" style="width:30px"> </i> Email: swolegoal.fit@gmail.com<br>
+            </div>
+            @*<div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
+                            <input type="text" class="form-control" placeholder="Name" id="usr">
+                        </div>
+                        <div class="col-sm-4" style="padding-left: 1px; padding-right: 0;">
+                            <input type="text" class="form-control" placeholder="Email" id="email">
+                        </div>
+                        <div class="col-sm-8" style="padding-top:5px; padding-left: 0px; padding-right: 0;">
+                            <textarea class="form-control" placeholder="Message" id="msg"></textarea>
+                        </div>
+                        <div class="col-sm-8" style="padding-right:0; padding-top:5px; padding-bottom: 20px">
+                            <a href="mailto:swolegoal.fit@gmail.com" class="btn" style="float:right">Send</a>
+                        </div>
+                    </div>
+                </div>*@
+        </div>
+
+        <hr style="width:50%" />
+
+    </section>
+    <!-- End Fitness Section -->
+
+    <!-- Bottom of page Disclaimer -->
+    <div class="disclaimer">
+        <p class="disclaimer">DISCLAIMER</p>
+        <p>
+            Our guide is intended for the use of healthy individuals above the age of 18. Please follow our plans carefully and at your own discretion.
+        </p>
+    </div>
+    <!-- End bottom of page Disclaimer -->
+</body>
+</html>

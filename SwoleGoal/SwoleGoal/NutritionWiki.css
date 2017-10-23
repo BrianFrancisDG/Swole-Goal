@@ -1,0 +1,166 @@
+﻿body {
+    //background-image: url(http://nutritionpair.com/change/wp-content/uploads/2014/01/nutritious-food-285x160.jpg);
+    font-family: 'Lato', sans-serif !important;
+    font-weight:300; 
+}
+.thumbnail {
+    background-color: black;
+    padding:15px;
+    color: white;
+}
+
+h4{
+    color: darkseagreen;
+}
+.panel {
+    background-color: rgba(255,255,255,.9);
+}
+
+
+.parallax-header {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
+    url("https://www.rutlish.merton.sch.uk/wp-content/uploads/2015/03/FoodColour.jpg");
+    /* Set a specific height */
+    height: 20%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    !important;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+.headerText {
+    color: white;
+    !important margin:auto;
+    line-height: 400px;
+    vertical-align: middle;
+    font-size: 80px;
+    font-family: 'Lato',sans-serif;
+    margin: 0px;
+    z-index: 3;
+    opacity: 0.8;
+}
+
+.headerText2 {
+    color: darkseagreen;
+    !important margin:auto;
+    line-height: 200px;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: 'Lato',sans-serif;
+    margin: 0px;
+    z-index: 3;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .headerText {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .headerText {
+        font-size: 60px;
+    }
+}
+
+.headerDesc {
+    color: cornsilk;
+    !important margin: 0 auto;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-family: 'Lato',sans-serif;
+    margin-top: 0px;
+    font-weight: 100;
+    z-index: 1;
+}
+
+.headerDesc2 {
+    color: cornsilk;
+}
+
+.mainRow {
+    padding: 50px;
+}
+
+.goalBoxes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-weight: 300;
+    !important;
+    font-size: 24px;
+}
+
+.bold {
+    color: darkseagreen;
+}
+
+
+.parallax-maintain {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://ae01.alicdn.com/kf/HTB1GjCERVXXXXbHXpXXq6xXFXXXO/crossfit-font-b-weightlifter-b-font-font-b-female-b-font-gym-pose-sexy-girl-sports.jpg");
+    /* Set a specific height */
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    !important;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.parallax-lose {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://www.prodietreviews.com/wp-content/uploads/2017/09/best-cardio-workouts-abs-exercise.jpg");
+    /* Set a specific height */
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    !important;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.parallax-gain {
+    /* The image used */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://i.pinimg.com/originals/95/84/c4/9584c48941987fcb351a1ec9e9535ce6.jpg");
+    /* Set a specific height */
+    height: 350px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    !important;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.goalHovers {
+    height: 350px;
+}
+
+
+.wellP {
+    font-size: 19px;
+}
