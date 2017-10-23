@@ -20,33 +20,40 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-fixed-top">
-        <div class="navbar-header">
-            <span>
-                <a class="navbar-brand toplogo" href="~/Home/Index#top">
-                    <img src="../logo.png">
-                </a>
-            </span>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navb">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <span>
+                    <a class="navbar-brand toplogo" href="~/Home/Index#top">
+                        <img src="../logo.png">
+                    </a>
+                </span>
+            </div>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="~/Home/Index#about">ABOUT</a></li>
+                    <li><a href="~/Home/Index#fitness">FITNESS</a></li>
+                    <li><a href="~/Home/Index#nutrition">NUTRITION</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">WIKIS<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Home/FitnessWiki">FITNESS</a></li>
+                            <li><a href="~/Home/NutritionWiki">NUTRITION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="~/Home/Index#about">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">FEEDBACK<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://goo.gl/forms/KqQHOC3xx2tfG5RB2">General Feedback</a></li>
+                            <li><a href="https://github.com/BrianFrancisDG/Swole-Goal/issues/new">Report a Bug</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="~/Home/Index#about">ABOUT</a></li>
-            <li><a href="~/Home/Index#fitness">FITNESS</a></li>
-            <li><a href="~/Home/Index#nutrition">NUTRITION</a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">WIKIS<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="~/Home/FitnessWiki">FITNESS</a></li>
-                    <li><a href="~/Home/NutritionWiki">NUTRITION</a></li>
-                </ul>
-            </li>
-            <li><a href="~/Home/Index#about">CONTACT</a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">FEEDBACK<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="https://goo.gl/forms/KqQHOC3xx2tfG5RB2">General Feedback</a></li>
-                    <li><a href="https://github.com/BrianFrancisDG/Swole-Goal/issues/new">Report a Bug</a></li>
-                </ul>
-            </li>
-        </ul>
     </nav>
     <!-- End Navbar -->
 
