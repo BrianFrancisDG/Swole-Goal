@@ -1,69 +1,174 @@
 ﻿<head>
-    <link rel="stylesheet" href="../NutritionWiki.css" type="text/css" media="screen" runat="server" />
+	<title>Nutrition Wiki</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:,300,400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../NutritionWiki.css" type="text/css" media="screen" runat="server" />
 </head>
 
 <body>
-    <div class="container">
 
-        <br /><br /><br /><br />
-        <div class="panel">
-            <div><h2>Macro Suggestions</h2></div><br />
-            <div class="thumbnail">
-                <h4>Protein</h4>
-                Meats, fish, nuts, legumes, greek yogurts, eggs, tofu, quinoa, seeds.
+	<div class="row parallax-header">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="headerText">NUTRITION WIKI</h1>
             </div>
-            <div class="thumbnail">
-                <h4>Complex Carbohydrates</h4>
-                Pastas, breads, grains, potatoes, yams, beans, peas, green vegetables.
-            </div>
-            <div class="thumbnail">
-                <h4>Simple Carbohydrates</h4>
-                Only sugars; though that doesn't mean we can't still be health conscious when getting the simple carbs we want before a workout; most single servings of fruits will do the trick.
-            </div>
-        </div>
-        <div class="panel">
-            <div><h2>What to be weary of...</h2></div>
 
+        </div>      
+    </div>
+	<div class = "container-fluid">
+		<div class = "container">
 
-            <div class="thumbnail">
-                <h3>Mercury </h3>
-                Be weary of consuming fish that are high in Mercury; people often hear about the endless benefits of fish
+			<!-- Description --> 
+            <div>
+                <h2>Welcome to the <b class = "bold">Nutrition Wiki</b></h2>
+            </div>
+
+            <!-- Please Revise -->
+            <div class="row mainRow">
+                <p>
+					This page is designed to help you get started on a healthier lifestyle.
+					Good nutrition is an important part of leading a healthy 
+					lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, 
+					reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health. 
+                    </p>
+            </div>
+
+			
+			<div>
+				<h2><b class = "bold">Macro Suggestions</b></h2>
+			</div>
+
+			
+			<div class = "row mainRow">
+				<div class = "col-sm-4 text-center">
+					<div class="thumbnail">
+                        <h4>Protein</h4>
+                        Meats, fish, nuts, legumes, greek yogurts, eggs, tofu, quinoa, seeds.
+                    </div>
+				</div>
+				
+				<div class = "col-sm-4 text-center">
+					<div class="thumbnail">
+                        <h4>Complex Carbohydrates</h4>
+                        Pastas, breads, grains, potatoes, yams, beans, peas, green vegetables.
+                    </div>
+					
+                </div>
+				
+				<div class = "col-sm-4 text-center">
+					<div class="thumbnail">
+                        <h4>Simple Carbohydrates</h4>
+                        Only sugars; though that doesn't mean we can't still be health conscious when getting the simple carbs we want before a workout; most single servings of fruits will do the trick.
+                    </div>
+                </div>
+				
+			</div> <!-- Macro Suggestions End-->
+
+            <div>
+                <h2><b class = "bold">What to be weary of...</b></h2>
+            </div>
+
+			<div class = "row mainRow">
+				<div class = "col-sm-6 text-center">
+                    <div class="thumbnail">
+                        <h4>Mercury</h4>
+                         Be weary of consuming fish that are high in Mercury; people often hear about the endless benefits of fish
                 but like most things in life, moderation is key. Mackerel, Marlin, Orange Roughy, Shark, Swordfish, Grouper, Sea Bass, and
-                various Tunas are all typically high in Mercury. Do note that this list varies slightly depending on where the fish was caught.<br />
-            </div>
-            <div class="thumbnail">
-                <h3>Artificial Sweeteners </h3>
-                Artificial sweeteners such as sucralose and aspartame will NOT help you lose weight.
+                various Tunas are all typically high in Mercury. Do note that this list varies slightly depending on where the fish was caught.
+                    </div>
+                </div>
+				<div class = "col-sm-6 text-center">
+                    <div class="thumbnail">
+                        <h4>Artificial Sweeteners</h4>
+						Artificial sweeteners such as sucralose and aspartame will NOT help you lose weight.
                 Countless studies have proven that such sugar substitutes hinder your body's ability to compute it's caloric intake.
                 It essentially looses track very often, which often leads to weight gain. These drugs show very strong correlations with a slew
-                of cancers. Stevia Leaf Extract likely follows suit, but the substance is still very new and therefore not as well tested.<br />
-            </div>
-            <div class="thumbnail">
-                <h3>Fiber</h3>
-                Fiber is obviously a necessary nutrient for our bodies and is in plenty of our superfoods. With that being said, getting the proper amount of fiber in our diets is done by few and far between.
-                Women are generally reccomended to ingest ~20 grams per day, while men need ~30 grams. People tend to never be hitting these numbers consistently, by either getting virtually no fiber or by taking in upwards of 100 grams.
-                To give you some perspective on how tricky this number is, two burritos from chipotle with their standard serving of black beans would surpass the reccomended daily intake for men.<br />
-            </div>
-            <div class="thumbnail">
-                <h3>Sleep deprevation</h3>
-                Our (often necessary) exposure to florecents, laptops, and cellphones destabilizes our internal clocks.
-                So no, it isn't entirely our faults that sleep deprevation is such a relevant issue nowadays. With that being said you can certainly
-                take some preventative measures to minimize your time tossing and turning in bed. Avoiding screens and florecent lights in the few hours
-                prior to your slumber is a great start. Sleeping masks can often do wonders for people as well.<br />
-            </div>
-        </div>
-        <br /><br /><br />
-        <div class="panel">
-            <h2>Terminology</h2>
+                of cancers. Stevia Leaf Extract likely follows suit, but the substance is still very new and therefore not as well tested.
+                    </div>
+                </div>
+				<div class = "col-sm-6 text-center">
+                    <div class="thumbnail">
+                        <h4>Fiber</h4>
+                        Fiber is obviously a necessary nutrient for our bodies and is in plenty of our superfoods. With that being said, getting the proper amount of fiber in our diets is done by few and far between.
+                        Women are generally reccomended to ingest ~20 grams per day, while men need ~30 grams. People tend to never be hitting these numbers consistently, by either getting virtually no fiber or by taking in upwards of 100 grams.
+                        To give you some perspective on how tricky this number is, two burritos from chipotle with their standard serving of black beans would surpass the reccomended daily intake for men.
+                    </div>
+                </div>
+				<div class = "col-sm-6 text-center">
+                    <div class="thumbnail">
+                        <h4>Sleep deprevation</h4>
+                        Our (often necessary) exposure to florecents, laptops, and cellphones destabilizes our internal clocks.
+                        So no, it isn't entirely our faults that sleep deprevation is such a relevant issue nowadays. With that being said you can certainly
+                        take some preventative measures to minimize your time tossing and turning in bed. Avoiding screens and florecent lights in the few hours
+                        prior to your slumber is a great start. Sleeping masks can often do wonders for people as well.
+                    </div>
+                </div>
+			</div> <!-- Be weary End -->
 
-            <div class="thumbnail">
-                <b>Ectomorph</b> - Ectomorphs have a naturally thin build to them. They have a high tollerance for carbs and a low tollerance for fat, therefore they tend to have a hard time gaining weight. <br /><br />
-                <b>Mesomorph</b> - Mesomorphs have a naturally medium build to them. They have a moderate tollerance for carbs and fat. <br /><br />
-                <b>Endomorph</b> - Endomorphs have a naturally heavyset build to them. They have a low tollerance for carbs and a high tollerance for fat, hence they tend to put on weight easily.<br /><br />
-                <b>BMR</b> - Your Basal Metabolic Rate (Abbreviated as BMR) is a rough estimate of how many calories you'd burn if you were stationary 24 hours.<br /><br />
-                <b>TDEE</b> - Total Daily Energy Expenditure is the amount of energy in calories you burn per day, taking into consideration the physical activity you subject your body to on a daily basis.<br /><br />
-                <b>Metabolism</b> - Metabolism by definition is a rather general statement; referring to the chemical processes that are performed by our bodies to maintain life.<br /><br />
-            </div>
-        </div>
-    </div>
+
+			<div>
+				<h2><b class = "bold">Terminology</b></h2>
+			</div>
+			
+			<div class = "row mainRow">
+				
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>Ectomorph</h4>
+                         Ectomorphs have a naturally thin build to them. 
+						They have a high tollerance for carbs and a low 
+						tollerance for fat, therefore they tend to have a hard time gaining weight.
+                    </div>
+                </div>
+				
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>Mesomorph</h4>
+                         Mesomorphs have a naturally medium build to them. They have a moderate tollerance for carbs and fat.
+                    </div>
+                </div>
+				
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>Endomorph</h4>
+                         Endomorphs have a naturally heavyset build to them. 
+						They have a low tollerance for carbs and a high 
+						tollerance for fat, hence they tend to put on weight easily.
+                    </div>
+                </div>
+
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>BMR</h4>
+                        Your Basal Metabolic Rate (Abbreviated as BMR) is a 
+						rough estimate of how many calories you'd burn if 
+						you were stationary 24 hours.
+                    </div>
+                </div>
+
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>TDEE</h4>
+                         Total Daily Energy Expenditure is the amount of energy in 
+						calories you burn per day, taking into consideration the 
+						physical activity you subject your body to on a daily basis.
+                    </div>
+                </div>
+
+				<div class = "col-sm-4 text-center">
+                    <div class="thumbnail">
+                        <h4>Metabolism</h4>
+                         Metabolism by definition is a rather general statement; 
+						referring to the chemical processes that are performed 
+						by our bodies to maintain life.
+                    </div>
+                </div>
+				
+				
+			</div> <!-- Terminology End -->
+            
+		</div> <!-- Container End -->
+	</div> <!-- Container-fluid End -->
+
 </body>
