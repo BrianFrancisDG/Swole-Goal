@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SwoleGoal" t="IncludeRecursive">
+        <e p="_Layout.css" t="Include" />
+        <e p="_Layout.js" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="fitness.jpg" t="Include" />
+        <e p="FitnessWiki.css" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Index.css" t="Include" />
+        <e p="Index.js" t="Include" />
+        <e p="logo.png" t="Include" />
+        <e p="Models" t="Include">
+          <e p="HomePageInputs.cs" t="Include" />
+          <e p="NutritionWiki.cs" t="Include" />
+          <e p="ParagraphCreator.cs" t="Include" />
+          <e p="ResultOutputs.cs" t="Include" />
+        </e>
+        <e p="nutrition.jpg" t="Include" />
+        <e p="NutritionWiki.css" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Results.css" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-1.9.1-vsdoc.js" t="Include" />
+          <e p="jquery-1.9.1.js" t="Include" />
+          <e p="jquery-1.9.1.min.js" t="Include" />
+          <e p="jquery-1.9.1.min.map" t="Include" />
+        </e>
+        <e p="SubmissionForm.css" t="Include" />
+        <e p="SwoleGoal.csproj" t="IncludeRecursive" />
+        <e p="SWOLEGOAL.png" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="CSS" t="Include">
+              <e p="Index.css" t="Include" />
+              <e p="SubmissionForm.css" t="Include" />
+            </e>
+            <e p="FitnessWiki.cshtml" t="Include" />
+            <e p="Images" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="JS" t="Include" />
+            <e p="NutritionWiki.cshtml" t="Include" />
+            <e p="Results.cshtml" t="Include" />
+            <e p="Submission.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="weights.jpg" t="Include" />
+      </e>
+      <e p="SwoleGoal.sln" t="IncludeFlat" />
+      <e p="SwoleGoal.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeControllerTest.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="SwoleGoal.Tests.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_SwoleGoal.-638818811.00" t="ExcludeRecursive" />
+  </component>
+</project>
