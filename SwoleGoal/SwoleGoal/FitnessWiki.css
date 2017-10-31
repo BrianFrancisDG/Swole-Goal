@@ -9,6 +9,7 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
+}
 
 
 body {
@@ -16,6 +17,13 @@ body {
     margin: 0;
     font-weight: 300;
 }
+
+.thumbnail {
+    background-color: black;
+    padding:15px;
+    color: darkseagreen;
+}
+
 
 .parallax-header {
     /* The image used */

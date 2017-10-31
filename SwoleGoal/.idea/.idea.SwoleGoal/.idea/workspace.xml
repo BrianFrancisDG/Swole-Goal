@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25eb0253-a6f2-46b8-bed0-2067d8e25a41" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RouteConfig.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SwoleGoal/App_Start/RouteConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1509398261453" expanded="false" signature="6:47" ph="..." />
+                <marker date="1509398261453" expanded="true" signature="68:490" ph="{...}" />
+                <marker date="1509398261453" expanded="true" signature="99:488" ph="{...}" />
+                <marker date="1509398261453" expanded="true" signature="171:482" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutritionWiki.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SwoleGoal/NutritionWiki.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1877">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutritionWiki.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/NutritionWiki.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-832">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509398261528" expanded="true" signature="0:254" ph="&lt;head.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="256:7708" ph="&lt;body.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="265:471" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="307:454" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="337:438" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="473:7670" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="507:7639" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="571:672" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="721:1172" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="763:1153" ph="&lt;p.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1181:1249" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1258:2206" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1290:1528" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1332:1517" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1538:1809" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1580:1780" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1819:2191" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="1861:2168" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="2250:2344" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="2349:5267" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="2381:2966" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="2438:2943" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="2971:3663" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="3028:3640" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="3668:4505" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="3725:4482" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="4510:5257" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="4567:5234" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5295:5357" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5365:7592" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5402:5786" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5459:5763" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5796:6095" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="5853:6072" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6105:6478" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6162:6455" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6484:6821" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6541:6798" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6827:7210" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="6884:7187" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="7216:7572" ph="&lt;div.../&gt;" />
+                <marker date="1509398261528" expanded="true" signature="7273:7549" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FitnessWiki.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SwoleGoal/FitnessWiki.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FitnessWiki.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/FitnessWiki.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="144" column="35" lean-forward="false" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
+              <folding>
+                <marker date="1509430937752" expanded="true" signature="16:11631" ph="&lt;html.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="33:332" ph="&lt;head.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="333:11623" ph="&lt;body.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="341:541" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="383:528" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="413:512" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="574:1190" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="616:1183" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="669:768" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="799:1140" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="841:1121" ph="&lt;p.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1245:3017" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1283:1802" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1330:1787" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1366:1768" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1424:1745" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1470:1714" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1575:1679" ph="&lt;p.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1811:2382" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1858:2367" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1894:2348" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="1965:2318" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2011:2287" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2391:3001" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2438:2986" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2474:2967" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2541:2937" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2587:2906" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="2716:2871" ph="&lt;p.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3055:4838" ph="&lt;!--...--&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3059:4834" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3153:4356" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3203:3525" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3346:3506" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3533:3916" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3687:3897" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="3924:4340" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4144:4321" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4390:4607" ph="&lt;a.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4612:4827" ph="&lt;a.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4842:11584" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4876:11554" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4905:4983" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="4987:7097" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="5020:5677" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="5114:5650" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="5683:6439" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="5783:6411" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="6445:7086" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="6543:7059" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7132:7204" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7222:8260" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7261:7588" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7358:7561" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7595:7929" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7678:7901" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="7936:8247" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8016:8220" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8297:8387" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8392:8663" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8414:8644" ph="&lt;p.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8514:8565" ph="&lt;span.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8667:11502" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8699:9142" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="8764:9119" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="9160:9623" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="9263:9600" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="9631:10086" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="9736:10063" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="10104:10565" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="10207:10542" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="10589:11037" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="10690:11014" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="11056:11491" ph="&lt;div.../&gt;" />
+                <marker date="1509430937752" expanded="true" signature="11157:11468" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SwoleGoal/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SwoleGoal/Models/NutritionWiki.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/NutritionWiki.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/FitnessWiki.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SwoleGoal/NutritionWiki.css" />
+        <option value="$PROJECT_DIR$/SwoleGoal/Views/Home/FitnessWiki.cshtml" />
+        <option value="$PROJECT_DIR$/SwoleGoal/FitnessWiki.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SwoleGoal (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SwoleGoal (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SwoleGoal" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SwoleGoal (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SwoleGoal" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App_Start" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SwoleGoal/SwoleGoal.csproj" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="/Library/Frameworks/Mono.framework/Versions/Current/lib/mono/4.5/xsp4.exe" />
+      <option name="PROGRAM_PARAMETERS" value="--address=127.0.0.1 --port=5001" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25eb0253-a6f2-46b8-bed0-2067d8e25a41" name="Default" comment="" />
+      <created>1509398439007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509398439007</updated>
+      <workItem from="1509398440347" duration="1409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1409000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="982" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.504884" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.495116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.497558" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/App_Start/RouteConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1509398261453" expanded="false" signature="6:47" ph="..." />
+            <marker date="1509398261453" expanded="true" signature="68:490" ph="{...}" />
+            <marker date="1509398261453" expanded="true" signature="99:488" ph="{...}" />
+            <marker date="1509398261453" expanded="true" signature="171:482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/Models/NutritionWiki.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508782816803" expanded="false" signature="6:84" ph="..." />
+            <marker date="1508782816803" expanded="true" signature="112:2556" ph="{...}" />
+            <marker date="1508782816803" expanded="true" signature="145:2554" ph="{...}" />
+            <marker date="1508782816803" expanded="true" signature="2432:2547" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/FitnessWiki.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="144" column="35" lean-forward="false" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
+          <folding>
+            <marker date="1509430937752" expanded="true" signature="16:11631" ph="&lt;html.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="33:332" ph="&lt;head.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="333:11623" ph="&lt;body.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="341:541" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="383:528" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="413:512" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="574:1190" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="616:1183" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="669:768" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="799:1140" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="841:1121" ph="&lt;p.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1245:3017" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1283:1802" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1330:1787" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1366:1768" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1424:1745" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1470:1714" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1575:1679" ph="&lt;p.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1811:2382" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1858:2367" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1894:2348" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="1965:2318" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2011:2287" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2391:3001" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2438:2986" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2474:2967" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2541:2937" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2587:2906" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="2716:2871" ph="&lt;p.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3055:4838" ph="&lt;!--...--&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3059:4834" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3153:4356" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3203:3525" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3346:3506" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3533:3916" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3687:3897" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="3924:4340" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4144:4321" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4390:4607" ph="&lt;a.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4612:4827" ph="&lt;a.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4842:11584" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4876:11554" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4905:4983" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="4987:7097" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="5020:5677" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="5114:5650" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="5683:6439" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="5783:6411" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="6445:7086" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="6543:7059" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7132:7204" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7222:8260" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7261:7588" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7358:7561" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7595:7929" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7678:7901" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="7936:8247" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8016:8220" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8297:8387" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8392:8663" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8414:8644" ph="&lt;p.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8514:8565" ph="&lt;span.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8667:11502" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8699:9142" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="8764:9119" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="9160:9623" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="9263:9600" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="9631:10086" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="9736:10063" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="10104:10565" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="10207:10542" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="10589:11037" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="10690:11014" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="11056:11491" ph="&lt;div.../&gt;" />
+            <marker date="1509430937752" expanded="true" signature="11157:11468" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/NutritionWiki.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1877">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/Views/Home/NutritionWiki.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509398261528" expanded="true" signature="0:254" ph="&lt;head.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="256:7708" ph="&lt;body.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="265:471" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="307:454" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="337:438" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="473:7670" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="507:7639" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="571:672" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="721:1172" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="763:1153" ph="&lt;p.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1181:1249" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1258:2206" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1290:1528" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1332:1517" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1538:1809" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1580:1780" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1819:2191" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="1861:2168" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="2250:2344" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="2349:5267" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="2381:2966" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="2438:2943" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="2971:3663" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="3028:3640" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="3668:4505" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="3725:4482" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="4510:5257" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="4567:5234" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5295:5357" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5365:7592" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5402:5786" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5459:5763" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5796:6095" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="5853:6072" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6105:6478" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6162:6455" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6484:6821" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6541:6798" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6827:7210" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="6884:7187" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="7216:7572" ph="&lt;div.../&gt;" />
+            <marker date="1509398261528" expanded="true" signature="7273:7549" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwoleGoal/FitnessWiki.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
