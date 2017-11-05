@@ -64,6 +64,8 @@
     margin: 0 auto;
 }
 
+
+
 section.module:last-child {
     margin-bottom: 0;
 }
@@ -122,6 +124,61 @@ section.module.parallax h1 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
+section.ok {
+    background-color: #555;
+}
+
+.scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-transform: translateY(-40px);
+}
+
+    .scroll-down:before {
+        position: absolute;
+        top: calc(50% - 8px);
+        left: calc(50% - 6px);
+        transform: rotate(-45deg);
+        display: block;
+        width: 12px;
+        height: 12px;
+        content: "";
+        border: 2px solid white;
+        border-width: 0px 0 2px 2px;
+    }
+
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(-40px);
+        -ms-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}
+
 section.module.main {
     background-image: url("../weights.jpg");
     /*Image from http://i.huffpost.com/gen/2469020/images/o-START-LIFTING-WEIGHTS-facebook.jpg*/
@@ -136,7 +193,6 @@ section.module.nutrition {
     background-image: url("../nutrition.jpg");
     /*Image from https://www.theseasonedmom.com/wp-content/uploads/2017/04/Garlic-and-Herb-Salmon-Marinade-7.jpg*/
 }
-
 
 @media all and (min-width: 670px) {
     section.module h2 {
