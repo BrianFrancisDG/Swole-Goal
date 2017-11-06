@@ -39,8 +39,28 @@ namespace SwoleGoal.Models
             Outputs.GramsFat = (int) ((Outputs.Tdee * .3) / 9);
             Outputs.GramsProtein = (int) ((Outputs.Tdee * .3) / 4);
             Outputs.GramsCarbs = (int) ((Outputs.Tdee * .4) / 4);
+            Outputs.PrimaryGoal = GoalToString(inputs.PrimaryGoal);
+            Outputs.CaloricPercent = CalculateCaloricPercent(inputs.PrimaryGoal);
         }
-        public string CreateParagraph(HomePageInputs inputs)
+
+        public string GoalToString(string goal)
+        {
+            string answer = "";
+            if (goal == "Gain")
+            {
+                answer = "to gain ";
+            }
+            else if (goal == "Lose")
+            {
+                answer = "to lose weight ";
+            }
+            else
+            {
+                answer = "to just be healthier ";
+            }
+            return answer;
+        }
+            public string CreateParagraph(HomePageInputs inputs)
         {
             string answer = "";
             if (inputs.PrimaryGoal == "Gain")

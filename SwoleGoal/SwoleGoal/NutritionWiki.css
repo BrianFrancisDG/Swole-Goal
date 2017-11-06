@@ -9,8 +9,12 @@
     color: white;
 }
 
-h4{
+h3{
     color: darkseagreen;
+}
+
+h4{
+    color: white;
 }
 .panel {
     background-color: rgba(255,255,255,.9);
