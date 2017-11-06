@@ -35,8 +35,32 @@ namespace SwoleGoal.Models
             Outputs.Bmr = CalculateBMR(m_Inputs.Height, m_Inputs.Weight, m_Inputs.Gender, m_Inputs.Age);
             Outputs.Tdee = CalculateTdee(Outputs.Bmr, Outputs.TotalActivity);
             Outputs.Paragraph = CreateParagraph(m_Inputs);
+            Outputs.Caloric = CalculateCaloricIntake(Outputs.Tdee, inputs.PrimaryGoal);
+            Outputs.GramsFat = (int) ((Outputs.Tdee * .3) / 9);
+            Outputs.GramsProtein = (int) ((Outputs.Tdee * .3) / 4);
+            Outputs.GramsCarbs = (int) ((Outputs.Tdee * .4) / 4);
+            Outputs.PrimaryGoal = GoalToString(inputs.PrimaryGoal);
+            Outputs.CaloricPercent = CalculateCaloricPercent(inputs.PrimaryGoal);
         }
-        public string CreateParagraph(HomePageInputs inputs)
+
+        public string GoalToString(string goal)
+        {
+            string answer = "";
+            if (goal == "Gain")
+            {
+                answer = "to gain ";
+            }
+            else if (goal == "Lose")
+            {
+                answer = "to lose weight ";
+            }
+            else
+            {
+                answer = "to just be healthier ";
+            }
+            return answer;
+        }
+            public string CreateParagraph(HomePageInputs inputs)
         {
             string answer = "";
             if (inputs.PrimaryGoal == "Gain")
@@ -65,7 +89,7 @@ namespace SwoleGoal.Models
             }
             return answer;
         }
-        public double CalculateBMR(string height, string weight, string gender, string age)
+        public int CalculateBMR(string height, string weight, string gender, string age)
         {
             double answer = 0.0;
             double heightInt = 0;
@@ -81,9 +105,9 @@ namespace SwoleGoal.Models
             else {
                 answer = 66 + (6.23 * weightInt) + (12.7 * heightInt) - (6.8 * ageInt);
             }
-            return answer;
+            return (int)answer;
         }
-        public double CalculateTdee(double bmr, string totalActivity)
+        public int CalculateTdee(double bmr, string totalActivity)
         {
             double answer = bmr;
             if (totalActivity == "None")
@@ -102,7 +126,41 @@ namespace SwoleGoal.Models
             {
                 answer *= 1.725;
             }
+            return (int)answer;
+        }
+        public string CalculateCaloricPercent(string goal)
+        {
+            string answer = "";
+            if (goal == "Gain")
+            {
+                answer = "you can add a 10% surplus to your caloric intake bringing you to ";
+            }
+            else if(goal == "Lose")
+            {
+                answer = "you can add a 20% deficit to your caloric intake bringing you to ";
+            }
+            else
+            {
+                answer = "you can just eat ";
+            }
             return answer;
+        }
+        public int CalculateCaloricIntake(double Tdee, string goal)
+        {
+            double answer = 1;
+            if (goal == "Gain")
+            {
+                answer = Tdee + (Tdee * .1);
+            }
+            else if(goal == "Lose")
+            {
+                answer = Tdee - (Tdee * .2);
+            }
+            else
+            {
+                answer = Tdee;
+            }
+            return (int)answer;
         }
         /// <summary>
         /// Used to combine Work and Voluntary activities into one discrete value

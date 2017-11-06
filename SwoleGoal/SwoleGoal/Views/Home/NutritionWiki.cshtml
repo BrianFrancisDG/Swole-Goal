@@ -1,4 +1,6 @@
-﻿<head>
+﻿@model SwoleGoal.Models.ParagraphCreator
+
+<head>
 	<title>Nutrition Wiki</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
@@ -33,32 +35,67 @@
                     </p>
             </div>
 
-			
-			<div>
-				<h2><b class = "bold">Macro Suggestions</b></h2>
+            <div class="container">
+                @if (Model != null)
+                {
+                    <div class="jumbotron">
+                        <h2><b class="bold">Nutritional Suggestions</b></h2>
+                        <p>Since you're trying @Model.Outputs.PrimaryGoal and given your TDEE is @Model.Outputs.Tdee, 
+                           @Model.Outputs.CaloricPercent @Model.Outputs.Caloric calories daily. A generic macro split for
+                           you given your stats would be:
+                           @Model.Outputs.GramsProtein grams protein, @Model.Outputs.GramsCarbs grams carbs, @Model.Outputs.GramsFat grams fat. 
+                           This is a split of 30% protein 40% carbs 30% fat. Refer below to better fine tune our macro breakdown based on your body type.
+                        </p>
+                    </div>
+                    
+                }
+                
+            </div>	
+
+            <div>
+                <h2><b class="bold">What are Macros?</b></h2>
+            </div>
+
+			<div class="row mainRow">
+                <p>Macros or macronutrients are what make up the caloric content of our food. There are 3 macronutrients: protein, carbohydrates (complex and simple), and fat.
+                   You should count your macros not your calories as each macro comprises of a number of calories and by ensuring you recieve a sufficient amount of each type
+                   of macro, your caloric intake will fall in the proper ballpark of where it should be in order for you to achieve your nutrional goal.</p>
 			</div>
 
 			
 			<div class = "row mainRow">
 				<div class = "col-sm-4 text-center">
 					<div class="thumbnail">
-                        <h4>Protein</h4>
-                        Meats, fish, nuts, legumes, greek yogurts, eggs, tofu, quinoa, seeds.
+                        <h3>Protein</h3>
+                        <h4>1 gram of protein is equal to 4 calories. You should consume about .6-1.1 grams of protein per body weight. 
+                           If you're trying to gain muscle mass it is important to be on the higher side of the spectrum to make sure your muscles are receiving enough
+                           protein to grow.
+                        </h4>
+                        <h4>Some good sources of protein are meats, fish, nuts, legumes, greek yogurts, eggs, tofu, quinoa, seeds.</h4>
                     </div>
 				</div>
 				
 				<div class = "col-sm-4 text-center">
 					<div class="thumbnail">
-                        <h4>Complex Carbohydrates</h4>
-                        Pastas, breads, grains, potatoes, yams, beans, peas, green vegetables.
+                        <h3>Carbohydrates</h3>
+                        <h4>1 gram of a carb is equal to 4 calories. There are two types of carbs: complex and simple. Foods that are
+                            made up of complex carbs are pastas, breads, grains (opt for whole grain/wheat varieties), potatoes, yams, 
+                            beans, peas, green vegetables. Complex carbs break down slower so they're great for keeping you feeling fuller longer.
+                        </h4>
+                        <h4>Simple carbs are mostly sugar. Though that doesn't mean we can't still be health conscious when getting the simple carbs
+                            we want before a workout; most single servings of fruits will do the trick.
+                        </h4>
                     </div>
 					
                 </div>
 				
 				<div class = "col-sm-4 text-center">
 					<div class="thumbnail">
-                        <h4>Simple Carbohydrates</h4>
-                        Only sugars; though that doesn't mean we can't still be health conscious when getting the simple carbs we want before a workout; most single servings of fruits will do the trick.
+                        <h3>Fat</h3>
+                        <h4>The most important thing to know is that fat is NOT bad for you! 1 gram of fat is equal to 9 calories. Women should opt for
+                            diets slightly higher in fat than men since fat is crucial for keeping our hormones in check. "Healthy" fat refers to
+                            refers to monounsaturated and polyunsaturated fats and the fats that you should be avoiding are trans fats. Some sources
+                            that are packed with heart healthy fats are avocados, nuts (almonds and walnuts), olive oil, salmon, flaxseed, eggs, and chia seeds.</h4>
                     </div>
                 </div>
 				
@@ -71,36 +108,44 @@
 			<div class = "row mainRow">
 				<div class = "col-sm-6 text-center">
                     <div class="thumbnail">
-                        <h4>Mercury</h4>
-                         Be weary of consuming fish that are high in Mercury; people often hear about the endless benefits of fish
-                but like most things in life, moderation is key. Mackerel, Marlin, Orange Roughy, Shark, Swordfish, Grouper, Sea Bass, and
-                various Tunas are all typically high in Mercury. Do note that this list varies slightly depending on where the fish was caught.
+                        <h3>Mercury</h3>
+                        <h4>
+                            Be weary of consuming fish that are high in Mercury; people often hear about the endless benefits of fish
+                            but like most things in life, moderation is key. Mackerel, Marlin, Orange Roughy, Shark, Swordfish, Grouper, Sea Bass, and
+                            various Tunas are all typically high in Mercury. Do note that this list varies slightly depending on where the fish was caught.
+                        </h4>
                     </div>
                 </div>
 				<div class = "col-sm-6 text-center">
                     <div class="thumbnail">
-                        <h4>Artificial Sweeteners</h4>
-						Artificial sweeteners such as sucralose and aspartame will NOT help you lose weight.
-                Countless studies have proven that such sugar substitutes hinder your body's ability to compute it's caloric intake.
-                It essentially looses track very often, which often leads to weight gain. These drugs show very strong correlations with a slew
-                of cancers. Stevia Leaf Extract likely follows suit, but the substance is still very new and therefore not as well tested.
+                        <h3>Artificial Sweeteners</h3>
+                        <h4>
+                            Artificial sweeteners such as sucralose and aspartame will NOT help you lose weight.
+                            Countless studies have proven that such sugar substitutes hinder your body's ability to compute it's caloric intake.
+                            It essentially looses track very often, which often leads to weight gain. These drugs show very strong correlations with a slew
+                            of cancers. Stevia Leaf Extract likely follows suit, but the substance is still very new and therefore not as well tested.
+                        </h4>
                     </div>
                 </div>
 				<div class = "col-sm-6 text-center">
                     <div class="thumbnail">
-                        <h4>Fiber</h4>
-                        Fiber is obviously a necessary nutrient for our bodies and is in plenty of our superfoods. With that being said, getting the proper amount of fiber in our diets is done by few and far between.
-                        Women are generally reccomended to ingest ~20 grams per day, while men need ~30 grams. People tend to never be hitting these numbers consistently, by either getting virtually no fiber or by taking in upwards of 100 grams.
-                        To give you some perspective on how tricky this number is, two burritos from chipotle with their standard serving of black beans would surpass the reccomended daily intake for men.
+                        <h3>Fiber</h3>
+                        <h4>
+                            Fiber is obviously a necessary nutrient for our bodies and is in plenty of our superfoods. With that being said, getting the proper amount of fiber in our diets is done by few and far between.
+                            Women are generally reccomended to ingest ~20 grams per day, while men need ~30 grams. People tend to never be hitting these numbers consistently, by either getting virtually no fiber or by taking in upwards of 100 grams.
+                            To give you some perspective on how tricky this number is, two burritos from chipotle with their standard serving of black beans would surpass the reccomended daily intake for men.
+                        </h4>
                     </div>
                 </div>
 				<div class = "col-sm-6 text-center">
                     <div class="thumbnail">
-                        <h4>Sleep deprevation</h4>
-                        Our (often necessary) exposure to florecents, laptops, and cellphones destabilizes our internal clocks.
-                        So no, it isn't entirely our faults that sleep deprevation is such a relevant issue nowadays. With that being said you can certainly
-                        take some preventative measures to minimize your time tossing and turning in bed. Avoiding screens and florecent lights in the few hours
-                        prior to your slumber is a great start. Sleeping masks can often do wonders for people as well.
+                        <h3>Sleep deprevation</h3>
+                        <h4>
+                            Our (often necessary) exposure to florecents, laptops, and cellphones destabilizes our internal clocks.
+                            So no, it isn't entirely our faults that sleep deprevation is such a relevant issue nowadays. With that being said you can certainly
+                            take some preventative measures to minimize your time tossing and turning in bed. Avoiding screens and florecent lights in the few hours
+                            prior to your slumber is a great start. Sleeping masks can often do wonders for people as well.
+                        </h4>
                     </div>
                 </div>
 			</div> <!-- Be weary End -->
@@ -111,61 +156,80 @@
 			</div>
 			
 			<div class = "row mainRow">
-				
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>Ectomorph</h4>
-                         Ectomorphs have a naturally thin build to them. 
-						They have a high tollerance for carbs and a low 
-						tollerance for fat, therefore they tend to have a hard time gaining weight.
+                    <h2><b class="bold">Body Types</b></h2>
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>Ectomorph</h3>
+                            <h4>
+                                Ectomorphs have a naturally thin build to them.
+                                They have a high tolerance for carbs and usually
+                                a fast metabolic rate. A good starting macro ration would be
+                                25% protein, 55% carbs and 20% fat.
+                            </h4>
+                        </div>
                     </div>
-                </div>
-				
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>Mesomorph</h4>
-                         Mesomorphs have a naturally medium build to them. They have a moderate tollerance for carbs and fat.
-                    </div>
-                </div>
-				
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>Endomorph</h4>
-                         Endomorphs have a naturally heavyset build to them. 
-						They have a low tollerance for carbs and a high 
-						tollerance for fat, hence they tend to put on weight easily.
-                    </div>
-                </div>
 
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>BMR</h4>
-                        Your Basal Metabolic Rate (Abbreviated as BMR) is a 
-						rough estimate of how many calories you'd burn if 
-						you were stationary 24 hours.
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>Mesomorph</h3>
+                            <h4>
+                                Mesomorphs have a naturally muscular and athletic build to them. 
+                                They have a moderate tolerance for carbs and metabolic rate. 
+                                The 30% protein, 40% carb, 30% fat should work good with your body type!
+                            </h4>
+                               
+                        </div>
                     </div>
-                </div>
 
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>TDEE</h4>
-                         Total Daily Energy Expenditure is the amount of energy in 
-						calories you burn per day, taking into consideration the 
-						physical activity you subject your body to on a daily basis.
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>Endomorph</h3>
+                            <h4>
+                                Endomorphs have a naturally heavyset build to them. You may 
+                                have a hard time shedding weight and easier time gaining it given your low tolerance for 
+                                carbs. Try a macro split of 35% protein, 25% carbs and 40% fat.
+                            </h4>
+                           
+                        </div>
                     </div>
-                </div>
 
-				<div class = "col-sm-4 text-center">
-                    <div class="thumbnail">
-                        <h4>Metabolism</h4>
-                         Metabolism by definition is a rather general statement; 
-						referring to the chemical processes that are performed 
-						by our bodies to maintain life.
+                    <h2><b class="bold">Misc</b></h2>
+
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>BMR</h3>
+                            <h4>
+                                Your Basal Metabolic Rate (Abbreviated as BMR) is a
+                                rough estimate of how many calories you'd burn if
+                                you were stationary 24 hours.
+                            </h4>
+                        </div>
                     </div>
-                </div>
-				
-				
-			</div> <!-- Terminology End -->
+
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>TDEE</h3>
+                            <h4>
+                                Total Daily Energy Expenditure is the amount of energy in
+                                calories you burn per day, taking into consideration the
+                                physical activity you subject your body to on a daily basis.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <div class="thumbnail">
+                            <h3>Metabolism</h3>
+                            <h4>
+                                Metabolism by definition is a rather general statement;
+                                referring to the chemical processes that are performed
+                                by our bodies to maintain life.
+                            </h4>
+                        </div>
+                    </div>
+
+
+            </div> <!-- Terminology End -->
             
 		</div> <!-- Container End -->
 	</div> <!-- Container-fluid End -->

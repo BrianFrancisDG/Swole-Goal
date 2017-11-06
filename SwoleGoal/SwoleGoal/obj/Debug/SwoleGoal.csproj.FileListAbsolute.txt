@@ -15,6 +15,5 @@ C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Web
 C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.WebPages.Razor.xml
 C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\bin\System.Web.Mvc.xml
 C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.csprojResolveAssemblyReference.cache
-C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.csproj.CoreCompileInputs.cache
 C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.dll
 C:\Users\Shmo\Documents\GitHub\Swole-Goal\SwoleGoal\SwoleGoal\obj\Debug\SwoleGoal.pdb
