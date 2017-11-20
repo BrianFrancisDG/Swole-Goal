@@ -9,7 +9,7 @@ Welcome to SWOLE GOAL. A powerful tool to help you achieve all of your health an
 
 Step 1: Open up your internet browser.
 
-Step 2: <http://swolegoal.azurewebsites.net/>
+Step 2: <http://swolegoals.azurewebsites.net/>
 
 Step 3: Get Started!
 
