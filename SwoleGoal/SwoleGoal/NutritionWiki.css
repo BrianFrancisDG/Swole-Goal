@@ -9,6 +9,10 @@
     color: white;
 }
 
+.thumbnail h4{
+    font-weight:300;
+}
+
 h3{
     color: darkseagreen;
 }
