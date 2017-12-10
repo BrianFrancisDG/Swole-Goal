@@ -9,6 +9,10 @@
     color: white;
 }
 
+.thumbnail h4{
+    font-weight:300;
+}
+
 h3{
     color: darkseagreen;
 }
@@ -72,6 +76,12 @@ h4{
 @media screen and (max-width: 1024px) {
     .headerText {
         font-size: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .headerText {
+        font-size: 42px
     }
 }
 
