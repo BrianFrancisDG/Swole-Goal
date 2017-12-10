@@ -74,6 +74,14 @@ body {
     .headerText{
         font-size: 45px;
     }
+    .headerText2 {
+        font-size: 32px;
+
+    }
+    .headerDesc2 {
+        font-size: 20px;
+
+    }
     .thumbnail h2{
         font-size: 25px;
     }
