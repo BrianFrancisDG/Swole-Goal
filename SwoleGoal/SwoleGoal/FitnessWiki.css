@@ -70,6 +70,38 @@ body {
     }
 }
 
+@media screen and (max-width:352px){
+    .headerText{
+        font-size: 45px;
+    }
+    .headerText2 {
+        font-size: 32px;
+
+    }
+    .headerDesc2 {
+        font-size: 20px;
+
+    }
+    .thumbnail h2{
+        font-size: 25px;
+    }
+    .thumbnail h3{
+        font-size: 20px;
+    }
+    .thumbnail h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1052px) and (min-width: 768px){
+    .headerText2{
+        font-size: 32px;
+    }
+    .headerDesc2{
+        font-size:20px; 
+    }
+}
+
 .headerDesc {
     color: cornsilk;
     !important margin: 0 auto;
@@ -162,5 +194,39 @@ p {
 .wellP{
     font-size: 19px;
 }
+
+.well h3{
+    font-weight:300;
+}
+
+.thumbnail {
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.thumbnail h3{
+    font-weight:300;
+}
+
+.thumbnail a {
+    color: white;
+}
+
+.thumbnail h1{
+    color: darkseagreen;
+   
+}
+
+.thumbnail h2{
+    color:darkseagreen;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .thumbnail h2{
+        font-size: 25px;
+    }
+}
+
 
 
