@@ -79,6 +79,12 @@ h4{
     }
 }
 
+@media screen and (max-width:768px) {
+    .headerText {
+        font-size: 42px
+    }
+}
+
 .headerDesc {
     color: cornsilk;
     !important margin: 0 auto;
